@@ -1,0 +1,60 @@
+{
+  "id": 22646690147,
+  "numero": 114375,
+  "numeroLoja": "GSH11R39S000B75",
+  "data": "2025-04-10",
+  "dataSaida": "2025-04-10",
+  "dataPrevista": "0000-00-00",
+  "totalProdutos": 109.98,
+  "total": 109.98,
+  "contato": {
+    "id": 17355164655,
+    "nome": "Paulo Ramalho Costa de Ramos",
+    "tipoPessoa": "F",
+    "numeroDocumento": "07697010780"
+  },
+  "situacao": {
+    "id": 6,
+    "valor": 0
+  },
+  "loja": {
+    "id": 204880146
+  },
+  "itens": [
+    {
+      "codigo": "16009423421",
+      "descricao": "Capacete MTB Start GTA Sinalizador Branco Tamanho:M 54-58cm",
+      "quantidade": 1.0,
+      "valorUnidade": 109.98,
+      "produto": {
+        "codigo": "16009423421",
+        "nome": "Capacete MTB Start GTA Sinalizador Branco Tamanho:M 54-58cm"
+      },
+      "_original": {
+        "id": 18020655957,
+        "codigo": "7246",
+        "unidade": "UN",
+        "quantidade": 1,
+        "desconto": 0,
+        "valor": 109.98,
+        "aliquotaIPI": 0,
+        "descricao": "Capacete MTB Start GTA Sinalizador Branco Tamanho:M 54-58cm",
+        "descricaoDetalhada": "",
+        "produto": {
+          "id": 16009423421
+        },
+        "comissao": {
+          "base": 0,
+          "aliquota": 0,
+          "valor": 0
+        }
+      }
+    }
+  ],
+  "cliente": {
+    "id": 17355164655,
+    "nome": "Paulo Ramalho Costa de Ramos",
+    "tipoPessoa": "F",
+    "numeroDocumento": "07697010780"
+  }
+}

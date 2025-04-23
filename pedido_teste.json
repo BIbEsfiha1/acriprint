@@ -1,0 +1,36 @@
+{
+    "numero": "12345",
+    "data": "16/04/2025",
+    "origem": "Site",
+    "tipo": "Venda",
+    "numero_bling": "98765",
+    "total": 189.90,
+    "observacoes": "Entrega urgente. Favor confirmar pagamento.",
+    "cliente": {
+        "nome": "João da Silva",
+        "email": "joao.silva@email.com",
+        "telefone": "(11) 98765-4321",
+        "endereco": "Rua das Flores, 123 - Jardim Primavera - São Paulo/SP"
+    },
+    "itens": [
+        {
+            "quantidade": 2,
+            "descricao": "Acrílico Cristal 2mm",
+            "codigo": "ACR002",
+            "sku": "ACR002",
+            "valor": 45.90
+        },
+        {
+            "quantidade": 1,
+            "descricao": "Corte a Laser - Logo Personalizado",
+            "codigo": "CRTL001",
+            "valor": 78.50
+        },
+        {
+            "quantidade": 4,
+            "descricao": "Parafuso Allen M3x10mm",
+            "codigo": "PFAL310",
+            "valor": 1.90
+        }
+    ]
+} 

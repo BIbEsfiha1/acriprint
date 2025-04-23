@@ -1,0 +1,60 @@
+{
+  "id": 22634343843,
+  "numero": 114152,
+  "numeroLoja": "250409RRNTMG9Q",
+  "data": "2025-04-08",
+  "dataSaida": "2025-04-08",
+  "dataPrevista": "2025-04-13",
+  "totalProdutos": 39.9,
+  "total": 19.99,
+  "contato": {
+    "id": 17351943028,
+    "nome": "Suzane Zuntini De Biazzi",
+    "tipoPessoa": "F",
+    "numeroDocumento": "38039741866"
+  },
+  "situacao": {
+    "id": 6,
+    "valor": 0
+  },
+  "loja": {
+    "id": 204848504
+  },
+  "itens": [
+    {
+      "codigo": "16270489253",
+      "descricao": "Suporte Parede Celular Expositor Apoiador Aparador Acrilico",
+      "quantidade": 1.0,
+      "valorUnidade": 39.9,
+      "produto": {
+        "codigo": "16270489253",
+        "nome": "Suporte Parede Celular Expositor Apoiador Aparador Acrilico"
+      },
+      "_original": {
+        "id": 18015047298,
+        "codigo": "7456",
+        "unidade": "PC",
+        "quantidade": 1,
+        "desconto": 0,
+        "valor": 39.9,
+        "aliquotaIPI": 0,
+        "descricao": "Suporte Parede Celular Expositor Apoiador Aparador Acrilico",
+        "descricaoDetalhada": "",
+        "produto": {
+          "id": 16270489253
+        },
+        "comissao": {
+          "base": 0,
+          "aliquota": 0,
+          "valor": 0
+        }
+      }
+    }
+  ],
+  "cliente": {
+    "id": 17351943028,
+    "nome": "Suzane Zuntini De Biazzi",
+    "tipoPessoa": "F",
+    "numeroDocumento": "38039741866"
+  }
+}

@@ -1,0 +1,150 @@
+2025-04-17 09:30:39,634 - INFO - ==================== INÍCIO DO TESTE ====================
+2025-04-17 09:30:39,634 - INFO - Carregando configuração de: config/printer_config.json
+2025-04-17 09:30:39,636 - INFO - Configuração atual: {
+  "porta_manual": "COM3",
+  "baudrate": 9600,
+  "timeout": 5,
+  "largura_papel": 32,
+  "caracteres_por_linha": 32,
+  "tamanho_qrcode": 5,
+  "avanco_final": 4,
+  "cortar_papel": true,
+  "codificacao": "cp850",
+  "tipo_impressora": "58mm",
+  "baudrates_alternativos": [
+    9600,
+    19200,
+    38400,
+    57600,
+    115200
+  ],
+  "max_tentativas": 3,
+  "metodos_impressao": [
+    "win32",
+    "serial",
+    "html"
+  ],
+  "impressora_windows": "POS58 Printer",
+  "impressoras_ignoradas": [
+    "Microsoft XPS Document Writer",
+    "Microsoft Print to PDF",
+    "Fax",
+    "OneNote",
+    "EPSON L375"
+  ],
+  "verificar_porta_antes": true,
+  "tempo_liberacao_porta": 3,
+  "imprimir_logo": false,
+  "usar_impressora_windows": true
+}
+2025-04-17 09:30:39,637 - INFO - Métodos habilitados: ['win32', 'serial', 'html']
+2025-04-17 09:30:39,637 - INFO - ==================== DIAGNÓSTICO SERIAL ====================
+2025-04-17 09:30:39,643 - INFO - Portas disponíveis: 2
+2025-04-17 09:30:39,643 - INFO -   - COM3: Serial Padrão por link Bluetooth (COM3)
+2025-04-17 09:30:39,643 - INFO -   - COM4: Serial Padrão por link Bluetooth (COM4)
+2025-04-17 09:30:39,643 - INFO - Tentando conectar à porta COM3...
+2025-04-17 09:30:39,644 - INFO - Conectado com sucesso à porta COM3 (Baudrate: 9600)
+2025-04-17 09:30:39,644 - INFO - Conexão estabelecida. Testando impressão básica...
+2025-04-17 09:30:44,755 - ERROR - Problema ao testar impressão básica: Write timeout
+2025-04-17 09:30:44,755 - INFO - ==================== DIAGNÓSTICO WINDOWS ====================
+2025-04-17 09:30:44,757 - INFO - Impressoras Windows disponíveis (5):
+2025-04-17 09:30:44,757 - INFO -   1. Microsoft Print to PDF (Microsoft Print to PDF,Microsoft Print To PDF,)
+2025-04-17 09:30:44,757 - INFO -   2. L375 Series(Rede) (L375 Series(Rede),EPSON L375 Series,)
+2025-04-17 09:30:44,757 - INFO -   3. EPSON141686 (L375 Series) (EPSON141686 (L375 Series),EPSON L375 Series,http://192.168.0.8:80/WSD/DEVICE)
+2025-04-17 09:30:44,758 - INFO -   4. ALPDF (ALPDF,ALPDF,)
+2025-04-17 09:30:44,758 - INFO -   5. POS58 Printer (POS58 Printer,POS58ENG,)
+2025-04-17 09:30:44,758 - INFO - Impressora configurada: 'POS58 Printer'
+2025-04-17 09:30:44,759 - INFO - Impressora padrão: 'POS58 Printer'
+2025-04-17 09:30:44,759 - INFO - Testando impressão Windows básica...
+2025-04-17 09:30:44,760 - INFO - Preparando impressão via Windows...
+2025-04-17 09:30:44,760 - INFO - Usando impressora configurada: POS58 Printer
+2025-04-17 09:30:44,764 - INFO - Enviando arquivo para impressão: C:\Users\caram\AppData\Local\Temp\acriprint_win_20250417_093044.txt
+2025-04-17 09:30:44,867 - INFO - Impressão Windows enviada com sucesso
+2025-04-17 09:30:44,867 - INFO - Teste de impressão Windows bem-sucedido
+2025-04-17 09:30:44,868 - INFO - ==================== TESTE DE FLUXO COMPLETO ====================
+2025-04-17 09:30:44,868 - INFO - Executando fluxo completo de impressão...
+2025-04-17 09:30:44,868 - INFO - Iniciando impressão do pedido: TESTE-093044
+2025-04-17 09:30:44,868 - INFO - Métodos de impressão disponíveis: ['win32', 'serial', 'html']
+2025-04-17 09:30:44,868 - INFO - Tentando impressão via Serial (ESC/POS)...
+2025-04-17 09:30:49,970 - ERROR - Erro na impressão serial: Write timeout
+2025-04-17 09:30:49,970 - INFO - Tentando impressão via Windows...
+2025-04-17 09:30:49,971 - INFO - Preparando impressão via Windows...
+2025-04-17 09:30:49,973 - INFO - Usando impressora configurada: POS58 Printer
+2025-04-17 09:30:49,976 - INFO - Enviando arquivo para impressão: C:\Users\caram\AppData\Local\Temp\acriprint_win_20250417_093049.txt
+2025-04-17 09:30:50,024 - INFO - Impressão Windows enviada com sucesso
+2025-04-17 09:30:50,025 - INFO - Impressão via Windows bem-sucedida.
+2025-04-17 09:30:50,025 - INFO - ==================== RESUMO DO DIAGNÓSTICO ====================
+2025-04-17 09:30:50,025 - INFO - Método serial: FALHA
+2025-04-17 09:30:50,025 - INFO - Método win32: OK
+2025-04-17 09:30:50,025 - INFO - Fluxo completo: OK
+2025-04-17 09:30:50,025 - INFO - ==================== RECOMENDAÇÕES ====================
+2025-04-17 09:30:50,027 - INFO - ==================== FIM DO TESTE ====================
+2025-04-17 09:31:09,098 - INFO - ==================== INÍCIO DO TESTE ====================
+2025-04-17 09:31:09,098 - INFO - Carregando configuração de: config/printer_config.json
+2025-04-17 09:31:09,099 - INFO - Configuração atual: {
+  "porta_manual": "",
+  "baudrate": 9600,
+  "timeout": 5,
+  "largura_papel": 32,
+  "caracteres_por_linha": 32,
+  "tamanho_qrcode": 5,
+  "avanco_final": 4,
+  "cortar_papel": true,
+  "codificacao": "cp850",
+  "tipo_impressora": "58mm",
+  "baudrates_alternativos": [
+    9600,
+    19200,
+    38400,
+    57600,
+    115200
+  ],
+  "max_tentativas": 3,
+  "metodos_impressao": [
+    "win32",
+    "html"
+  ],
+  "impressora_windows": "POS58 Printer",
+  "impressoras_ignoradas": [
+    "Microsoft XPS Document Writer",
+    "Microsoft Print to PDF",
+    "Fax",
+    "OneNote",
+    "EPSON L375"
+  ],
+  "verificar_porta_antes": true,
+  "tempo_liberacao_porta": 3,
+  "imprimir_logo": false,
+  "usar_impressora_windows": true
+}
+2025-04-17 09:31:09,099 - INFO - Métodos habilitados: ['win32', 'html']
+2025-04-17 09:31:09,100 - INFO - ==================== DIAGNÓSTICO WINDOWS ====================
+2025-04-17 09:31:09,101 - INFO - Impressoras Windows disponíveis (5):
+2025-04-17 09:31:09,101 - INFO -   1. Microsoft Print to PDF (Microsoft Print to PDF,Microsoft Print To PDF,)
+2025-04-17 09:31:09,101 - INFO -   2. L375 Series(Rede) (L375 Series(Rede),EPSON L375 Series,)
+2025-04-17 09:31:09,101 - INFO -   3. EPSON141686 (L375 Series) (EPSON141686 (L375 Series),EPSON L375 Series,http://192.168.0.8:80/WSD/DEVICE)
+2025-04-17 09:31:09,102 - INFO -   4. ALPDF (ALPDF,ALPDF,)
+2025-04-17 09:31:09,102 - INFO -   5. POS58 Printer (POS58 Printer,POS58ENG,)
+2025-04-17 09:31:09,102 - INFO - Impressora configurada: 'POS58 Printer'
+2025-04-17 09:31:09,102 - INFO - Impressora padrão: 'POS58 Printer'
+2025-04-17 09:31:09,102 - INFO - Testando impressão Windows básica...
+2025-04-17 09:31:09,103 - INFO - Preparando impressão via Windows...
+2025-04-17 09:31:09,103 - INFO - Usando impressora configurada: POS58 Printer
+2025-04-17 09:31:09,104 - INFO - Enviando arquivo para impressão: C:\Users\caram\AppData\Local\Temp\acriprint_win_20250417_093109.txt
+2025-04-17 09:31:09,204 - INFO - Impressão Windows enviada com sucesso
+2025-04-17 09:31:09,204 - INFO - Teste de impressão Windows bem-sucedido
+2025-04-17 09:31:09,205 - INFO - ==================== TESTE DE FLUXO COMPLETO ====================
+2025-04-17 09:31:09,205 - INFO - Executando fluxo completo de impressão...
+2025-04-17 09:31:09,205 - INFO - Iniciando impressão do pedido: TESTE-093109
+2025-04-17 09:31:09,205 - INFO - Métodos de impressão disponíveis: ['win32', 'html']
+2025-04-17 09:31:09,205 - INFO - Tentando impressão via Windows...
+2025-04-17 09:31:09,205 - INFO - Preparando impressão via Windows...
+2025-04-17 09:31:09,205 - INFO - Usando impressora configurada: POS58 Printer
+2025-04-17 09:31:09,209 - INFO - Enviando arquivo para impressão: C:\Users\caram\AppData\Local\Temp\acriprint_win_20250417_093109.txt
+2025-04-17 09:31:09,244 - INFO - Impressão Windows enviada com sucesso
+2025-04-17 09:31:09,245 - INFO - Impressão via Windows bem-sucedida.
+2025-04-17 09:31:09,245 - INFO - ==================== RESUMO DO DIAGNÓSTICO ====================
+2025-04-17 09:31:09,245 - INFO - Método win32: OK
+2025-04-17 09:31:09,245 - INFO - Fluxo completo: OK
+2025-04-17 09:31:09,246 - INFO - ==================== RECOMENDAÇÕES ====================
+2025-04-17 09:31:09,246 - INFO - ==================== FIM DO TESTE ====================

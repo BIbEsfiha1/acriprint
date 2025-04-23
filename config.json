@@ -1,0 +1,35 @@
+{
+    "general": {
+        "language": "pt_BR",
+        "theme": "dark",
+        "auto_update": true,
+        "startup_check": true
+    },
+    "bling": {
+        "auto_connect": true,
+        "remember_credentials": true,
+        "timeout": 30,
+        "api_key": "c087a8ffcd05b3fe7c84de613f08a1b6fbbd226c"
+    },
+    "google": {
+        "credentials_path": "",
+        "token_path": "",
+        "spreadsheet_id": ""
+    },
+    "printing": {
+        "default_printer": "",
+        "auto_print": false,
+        "copies": 1,
+        "paper_size": "A4",
+        "orientation": "portrait"
+    },
+    "ui": {
+        "font_size": 12,
+        "show_toolbar": true,
+        "compact_mode": false
+    },
+    "logging": {
+        "level": "DEBUG",
+        "max_size_mb": 10
+    }
+}

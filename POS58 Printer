@@ -1,0 +1,27 @@
+================================
+       PEDIDO #TEST-POS58       
+   Data: 16/04/2025 13:20:28    
+      Origem: TESTE POS58       
+================================
+
+CLIENTE
+Nome: Teste POS58
+Telefone: (00) 12345-6789
+
+ITENS DO PEDIDO
+--------------------------------
+• 1x Item de teste para POS58
+  Cód: POS58-TESTE | Valor: R$ 99.99
+--------------------------------
+
+TOTAL: R$ 99.99
+
+OBSERVAÇÕES:
+Este é um teste de impressão
+na POS58. Verificando se a
+impressora correta está sendo
+usada.
+================================
+Impresso em: 16/04/2025 13:20:28
+================================
+

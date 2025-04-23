@@ -1,0 +1,1017 @@
+2025-04-16 10:45:16,641 - print_process - INFO - ==================================================
+2025-04-16 10:45:16,641 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 10:45:16
+2025-04-16 10:45:16,641 - print_process - INFO - Argumentos: ['C:\\Users\\caram\\OneDrive\\Área de Trabalho\\AcriPrint Programa\\Acriprint V3\\print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmpjk0yq1xf.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmp4zjxadfw.json']
+2025-04-16 10:45:16,648 - print_process - INFO - Pedido carregado do campo 'order': #114123
+2025-04-16 10:45:16,663 - print_process - INFO - Tentando impressão via porta serial...
+2025-04-16 10:45:16,681 - print_process - INFO - Portas disponíveis: ['COM3', 'COM4']
+2025-04-16 10:45:16,681 - print_process - INFO - Usando primeira porta disponível: COM3
+2025-04-16 10:45:16,681 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 9600
+2025-04-16 10:45:38,414 - print_process - INFO - ==================================================
+2025-04-16 10:45:38,414 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 10:45:38
+2025-04-16 10:45:38,414 - print_process - INFO - Argumentos: ['print_process.py', 'pedido_teste.json', 'resultado_teste.json']
+2025-04-16 10:45:38,415 - print_process - INFO - Pedido carregado diretamente: #12345
+2025-04-16 10:45:38,440 - print_process - INFO - Tentando impressão via porta serial...
+2025-04-16 10:45:38,453 - print_process - INFO - Portas disponíveis: ['COM3', 'COM4']
+2025-04-16 10:45:38,453 - print_process - INFO - Usando primeira porta disponível: COM3
+2025-04-16 10:45:38,453 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 9600
+2025-04-16 10:45:38,453 - print_process - WARNING - Falha ao conectar com baudrate 9600: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 10:45:38,454 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 115200
+2025-04-16 10:45:38,454 - print_process - WARNING - Falha ao conectar com baudrate 115200: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 10:45:38,454 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 57600
+2025-04-16 10:45:38,454 - print_process - WARNING - Falha ao conectar com baudrate 57600: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 10:45:38,455 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 38400
+2025-04-16 10:45:38,455 - print_process - WARNING - Falha ao conectar com baudrate 38400: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 10:45:38,455 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 19200
+2025-04-16 10:45:38,455 - print_process - WARNING - Falha ao conectar com baudrate 19200: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 10:45:38,455 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 9600
+2025-04-16 10:45:38,456 - print_process - WARNING - Falha ao conectar com baudrate 9600: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 10:45:38,456 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 4800
+2025-04-16 10:45:38,456 - print_process - WARNING - Falha ao conectar com baudrate 4800: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 10:45:38,456 - print_process - ERROR - Não foi possível conectar à porta COM3 com nenhum baudrate
+2025-04-16 10:45:38,456 - print_process - WARNING - Falha na impressão via porta serial, tentando alternativa...
+2025-04-16 10:45:38,456 - print_process - INFO - Usando método alternativo de impressão com Notepad
+2025-04-16 10:45:38,458 - print_process - INFO - Arquivo de texto criado com sucesso: C:\Users\caram\AppData\Local\Temp\pedido_12345.txt
+2025-04-16 10:45:39,668 - print_process - INFO - Arquivo enviado para impressão com Notepad: C:\Users\caram\AppData\Local\Temp\pedido_12345.txt
+2025-04-16 10:45:39,668 - print_process - INFO - Pedido impresso com sucesso via método alternativo
+2025-04-16 10:45:39,668 - print_process - ERROR - Erro ao registrar resultado: [WinError 3] O sistema não pode encontrar o caminho especificado: ''
+2025-04-16 10:45:39,671 - print_process - ERROR - Traceback (most recent call last):
+  File "C:\Users\caram\OneDrive\Área de Trabalho\AcriPrint Programa\Acriprint V3\print_process.py", line 65, in registrar_resultado
+    os.makedirs(os.path.dirname(result_file), exist_ok=True)
+  File "<frozen os>", line 225, in makedirs
+FileNotFoundError: [WinError 3] O sistema não pode encontrar o caminho especificado: ''
+
+2025-04-16 10:46:12,171 - print_process - INFO - ==================================================
+2025-04-16 10:46:12,172 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 10:46:12
+2025-04-16 10:46:12,172 - print_process - INFO - Argumentos: ['print_process.py', 'pedido_teste.json', 'resultado_teste.json']
+2025-04-16 10:46:12,173 - print_process - INFO - Pedido carregado diretamente: #12345
+2025-04-16 10:46:12,185 - print_process - INFO - Tentando impressão via porta serial...
+2025-04-16 10:46:12,194 - print_process - INFO - Portas disponíveis: ['COM3', 'COM4']
+2025-04-16 10:46:12,194 - print_process - INFO - Usando primeira porta disponível: COM3
+2025-04-16 10:46:12,194 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 9600
+2025-04-16 10:46:12,195 - print_process - WARNING - Falha ao conectar com baudrate 9600: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 10:46:12,195 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 115200
+2025-04-16 10:46:12,195 - print_process - WARNING - Falha ao conectar com baudrate 115200: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 10:46:12,196 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 57600
+2025-04-16 10:46:12,196 - print_process - WARNING - Falha ao conectar com baudrate 57600: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 10:46:12,196 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 38400
+2025-04-16 10:46:12,197 - print_process - WARNING - Falha ao conectar com baudrate 38400: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 10:46:12,197 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 19200
+2025-04-16 10:46:12,197 - print_process - WARNING - Falha ao conectar com baudrate 19200: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 10:46:12,197 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 9600
+2025-04-16 10:46:12,197 - print_process - WARNING - Falha ao conectar com baudrate 9600: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 10:46:12,197 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 4800
+2025-04-16 10:46:12,197 - print_process - WARNING - Falha ao conectar com baudrate 4800: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 10:46:12,197 - print_process - ERROR - Não foi possível conectar à porta COM3 com nenhum baudrate
+2025-04-16 10:46:12,198 - print_process - WARNING - Falha na impressão via porta serial, tentando alternativa...
+2025-04-16 10:46:12,198 - print_process - INFO - Usando método alternativo de impressão com Notepad
+2025-04-16 10:46:12,199 - print_process - INFO - Arquivo de texto criado com sucesso: C:\Users\caram\AppData\Local\Temp\pedido_12345.txt
+2025-04-16 10:46:13,027 - print_process - INFO - Arquivo enviado para impressão com Notepad: C:\Users\caram\AppData\Local\Temp\pedido_12345.txt
+2025-04-16 10:46:13,027 - print_process - INFO - Pedido impresso com sucesso via método alternativo
+2025-04-16 10:46:13,028 - print_process - INFO - Resultado registrado: True, Pedido impresso com sucesso via método alternativo
+2025-04-16 10:46:51,747 - print_process - INFO - ==================================================
+2025-04-16 10:46:51,747 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 10:46:51
+2025-04-16 10:46:51,747 - print_process - INFO - Argumentos: ['print_process.py', 'pedido_teste.json', 'resultado_teste.json']
+2025-04-16 10:46:51,769 - print_process - INFO - Pedido carregado diretamente: #12345
+2025-04-16 10:46:51,784 - print_process - INFO - Tentando impressão via porta serial...
+2025-04-16 10:46:51,792 - print_process - INFO - Portas disponíveis: ['COM3', 'COM4']
+2025-04-16 10:46:51,792 - print_process - INFO - Usando primeira porta disponível: COM3
+2025-04-16 10:46:51,793 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 9600
+2025-04-16 10:46:51,793 - print_process - WARNING - Falha ao conectar com baudrate 9600: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 10:46:51,793 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 115200
+2025-04-16 10:46:51,793 - print_process - WARNING - Falha ao conectar com baudrate 115200: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 10:46:51,794 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 57600
+2025-04-16 10:46:51,794 - print_process - WARNING - Falha ao conectar com baudrate 57600: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 10:46:51,794 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 38400
+2025-04-16 10:46:51,794 - print_process - WARNING - Falha ao conectar com baudrate 38400: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 10:46:51,795 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 19200
+2025-04-16 10:46:51,795 - print_process - WARNING - Falha ao conectar com baudrate 19200: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 10:46:51,795 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 9600
+2025-04-16 10:46:51,796 - print_process - WARNING - Falha ao conectar com baudrate 9600: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 10:46:51,796 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 4800
+2025-04-16 10:46:51,796 - print_process - WARNING - Falha ao conectar com baudrate 4800: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 10:46:51,796 - print_process - ERROR - Não foi possível conectar à porta COM3 com nenhum baudrate
+2025-04-16 10:46:51,796 - print_process - WARNING - Falha na impressão via porta serial, tentando alternativa...
+2025-04-16 10:46:51,796 - print_process - INFO - Usando método alternativo de impressão com Notepad
+2025-04-16 10:46:51,798 - print_process - INFO - Arquivo de texto criado com sucesso: C:\Users\caram\AppData\Local\Temp\pedido_12345.txt
+2025-04-16 10:46:52,633 - print_process - INFO - Arquivo enviado para impressão com Notepad: C:\Users\caram\AppData\Local\Temp\pedido_12345.txt
+2025-04-16 10:46:52,633 - print_process - INFO - Pedido impresso com sucesso via método alternativo
+2025-04-16 10:46:52,634 - print_process - INFO - Resultado registrado: True, Pedido impresso com sucesso via método alternativo
+2025-04-16 10:53:03,013 - print_process - INFO - ==================================================
+2025-04-16 10:53:03,013 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 10:53:03
+2025-04-16 10:53:03,013 - print_process - INFO - Argumentos: ['C:\\Users\\caram\\OneDrive\\Área de Trabalho\\AcriPrint Programa\\Acriprint V3\\print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmpwb35xk4l.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmp56mj0d4g.json']
+2025-04-16 10:53:03,026 - print_process - INFO - Pedido carregado diretamente: #115150
+2025-04-16 10:53:03,039 - print_process - INFO - Tentando impressão via porta serial...
+2025-04-16 10:53:03,048 - print_process - INFO - Portas disponíveis: ['COM3', 'COM4']
+2025-04-16 10:53:03,048 - print_process - INFO - Usando primeira porta disponível: COM3
+2025-04-16 10:53:03,048 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 9600
+2025-04-16 10:53:03,048 - print_process - WARNING - Falha ao conectar com baudrate 9600: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 10:53:03,049 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 115200
+2025-04-16 10:53:03,049 - print_process - WARNING - Falha ao conectar com baudrate 115200: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 10:53:03,049 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 57600
+2025-04-16 10:53:03,049 - print_process - WARNING - Falha ao conectar com baudrate 57600: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 10:53:03,049 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 38400
+2025-04-16 10:53:03,049 - print_process - WARNING - Falha ao conectar com baudrate 38400: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 10:53:03,049 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 19200
+2025-04-16 10:53:03,049 - print_process - WARNING - Falha ao conectar com baudrate 19200: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 10:53:03,049 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 9600
+2025-04-16 10:53:03,049 - print_process - WARNING - Falha ao conectar com baudrate 9600: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 10:53:03,049 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 4800
+2025-04-16 10:53:03,049 - print_process - WARNING - Falha ao conectar com baudrate 4800: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 10:53:03,049 - print_process - ERROR - Não foi possível conectar à porta COM3 com nenhum baudrate
+2025-04-16 10:53:03,049 - print_process - WARNING - Falha na impressão via porta serial, tentando alternativa...
+2025-04-16 10:53:03,049 - print_process - INFO - Usando método alternativo de impressão com Notepad
+2025-04-16 10:53:03,050 - print_process - INFO - Arquivo de texto criado com sucesso: C:\Users\caram\AppData\Local\Temp\pedido_115150.txt
+2025-04-16 10:53:04,008 - print_process - INFO - Arquivo enviado para impressão com Notepad: C:\Users\caram\AppData\Local\Temp\pedido_115150.txt
+2025-04-16 10:53:04,008 - print_process - INFO - Pedido impresso com sucesso via método alternativo
+2025-04-16 10:53:04,010 - print_process - INFO - Resultado registrado: True, Pedido impresso com sucesso via método alternativo
+2025-04-16 11:04:44,291 - print_process - INFO - ==================================================
+2025-04-16 11:04:44,291 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 11:04:44
+2025-04-16 11:04:44,291 - print_process - INFO - Argumentos: ['c:\\Users\\caram\\OneDrive\\Área de Trabalho\\AcriPrint Programa\\Acriprint V3\\print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmp18zzzzbq.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmp6hh06k9_.json']
+2025-04-16 11:04:44,303 - print_process - INFO - Pedido carregado diretamente: #2000011341187788
+2025-04-16 11:04:44,315 - print_process - INFO - Tentando impressão via porta serial...
+2025-04-16 11:04:44,322 - print_process - INFO - Portas disponíveis: ['COM3', 'COM4']
+2025-04-16 11:04:44,322 - print_process - INFO - Usando primeira porta disponível: COM3
+2025-04-16 11:04:44,322 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 9600
+2025-04-16 11:04:44,322 - print_process - WARNING - Falha ao conectar com baudrate 9600: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 11:04:44,322 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 115200
+2025-04-16 11:04:44,323 - print_process - WARNING - Falha ao conectar com baudrate 115200: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 11:04:44,323 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 57600
+2025-04-16 11:04:44,323 - print_process - WARNING - Falha ao conectar com baudrate 57600: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 11:04:44,323 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 38400
+2025-04-16 11:04:44,323 - print_process - WARNING - Falha ao conectar com baudrate 38400: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 11:04:44,323 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 19200
+2025-04-16 11:04:44,323 - print_process - WARNING - Falha ao conectar com baudrate 19200: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 11:04:44,323 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 9600
+2025-04-16 11:04:44,323 - print_process - WARNING - Falha ao conectar com baudrate 9600: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 11:04:44,323 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 4800
+2025-04-16 11:04:44,323 - print_process - WARNING - Falha ao conectar com baudrate 4800: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 11:04:44,323 - print_process - ERROR - Não foi possível conectar à porta COM3 com nenhum baudrate
+2025-04-16 11:04:44,323 - print_process - WARNING - Falha na impressão via porta serial, tentando alternativa...
+2025-04-16 11:04:44,323 - print_process - INFO - Usando método alternativo de impressão com Notepad
+2025-04-16 11:04:44,324 - print_process - INFO - Arquivo de texto criado com sucesso: C:\Users\caram\AppData\Local\Temp\pedido_2000011341187788.txt
+2025-04-16 11:04:45,023 - print_process - INFO - Arquivo enviado para impressão com Notepad: C:\Users\caram\AppData\Local\Temp\pedido_2000011341187788.txt
+2025-04-16 11:04:45,023 - print_process - INFO - Pedido impresso com sucesso via método alternativo
+2025-04-16 11:04:45,023 - print_process - INFO - Resultado registrado: True, Pedido impresso com sucesso via método alternativo
+2025-04-16 11:09:40,402 - print_process - INFO - ==================================================
+2025-04-16 11:09:40,402 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 11:09:40
+2025-04-16 11:09:40,402 - print_process - INFO - Argumentos: ['print_process.py', 'pedido_teste.json', 'resultado_teste.json']
+2025-04-16 11:09:40,409 - print_process - INFO - Pedido carregado diretamente: #12345
+2025-04-16 11:09:40,421 - print_process - INFO - Tentando impressão via porta serial...
+2025-04-16 11:09:40,432 - print_process - INFO - Portas disponíveis: ['COM3', 'COM4']
+2025-04-16 11:09:40,433 - print_process - INFO - Usando primeira porta disponível: COM3
+2025-04-16 11:09:40,433 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 9600
+2025-04-16 11:09:40,433 - print_process - WARNING - Falha ao conectar com baudrate 9600: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 11:09:40,433 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 115200
+2025-04-16 11:09:40,434 - print_process - WARNING - Falha ao conectar com baudrate 115200: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 11:09:40,434 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 57600
+2025-04-16 11:09:40,434 - print_process - WARNING - Falha ao conectar com baudrate 57600: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 11:09:40,434 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 38400
+2025-04-16 11:09:40,434 - print_process - WARNING - Falha ao conectar com baudrate 38400: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 11:09:40,435 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 19200
+2025-04-16 11:09:40,435 - print_process - WARNING - Falha ao conectar com baudrate 19200: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 11:09:40,435 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 9600
+2025-04-16 11:09:40,435 - print_process - WARNING - Falha ao conectar com baudrate 9600: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 11:09:40,435 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 4800
+2025-04-16 11:09:40,436 - print_process - WARNING - Falha ao conectar com baudrate 4800: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 11:09:40,436 - print_process - ERROR - Não foi possível conectar à porta COM3 com nenhum baudrate
+2025-04-16 11:09:40,436 - print_process - WARNING - Falha na impressão via porta serial, tentando alternativa...
+2025-04-16 11:09:40,436 - print_process - INFO - Usando método alternativo de impressão com Notepad
+2025-04-16 11:09:40,437 - print_process - INFO - Arquivo de texto criado com sucesso: C:\Users\caram\AppData\Local\Temp\pedido_12345.txt
+2025-04-16 11:09:41,298 - print_process - INFO - Arquivo enviado para impressão com Notepad: C:\Users\caram\AppData\Local\Temp\pedido_12345.txt
+2025-04-16 11:09:41,298 - print_process - INFO - Pedido impresso com sucesso via método alternativo
+2025-04-16 11:09:41,299 - print_process - INFO - Resultado registrado: True, Pedido impresso com sucesso via método alternativo
+2025-04-16 11:10:57,550 - print_process - INFO - ==================================================
+2025-04-16 11:10:57,550 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 11:10:57
+2025-04-16 11:10:57,550 - print_process - INFO - Argumentos: ['print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\pedido_teste.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\resultado_teste.json']
+2025-04-16 11:10:57,563 - print_process - INFO - Pedido carregado diretamente: #35791
+2025-04-16 11:10:57,575 - print_process - INFO - Tentando impressão via porta serial...
+2025-04-16 11:10:57,583 - print_process - INFO - Portas disponíveis: ['COM3', 'COM4']
+2025-04-16 11:10:57,583 - print_process - INFO - Usando primeira porta disponível: COM3
+2025-04-16 11:10:57,583 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 9600
+2025-04-16 11:10:57,583 - print_process - WARNING - Falha ao conectar com baudrate 9600: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 11:10:57,583 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 115200
+2025-04-16 11:10:57,584 - print_process - WARNING - Falha ao conectar com baudrate 115200: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 11:10:57,584 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 57600
+2025-04-16 11:10:57,584 - print_process - WARNING - Falha ao conectar com baudrate 57600: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 11:10:57,584 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 38400
+2025-04-16 11:10:57,584 - print_process - WARNING - Falha ao conectar com baudrate 38400: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 11:10:57,584 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 19200
+2025-04-16 11:10:57,584 - print_process - WARNING - Falha ao conectar com baudrate 19200: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 11:10:57,584 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 9600
+2025-04-16 11:10:57,584 - print_process - WARNING - Falha ao conectar com baudrate 9600: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 11:10:57,584 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 4800
+2025-04-16 11:10:57,584 - print_process - WARNING - Falha ao conectar com baudrate 4800: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 11:10:57,584 - print_process - ERROR - Não foi possível conectar à porta COM3 com nenhum baudrate
+2025-04-16 11:10:57,584 - print_process - WARNING - Falha na impressão via porta serial, tentando alternativa...
+2025-04-16 11:10:57,584 - print_process - INFO - Usando método alternativo de impressão com Notepad
+2025-04-16 11:10:57,585 - print_process - INFO - Arquivo de texto criado com sucesso: C:\Users\caram\AppData\Local\Temp\pedido_35791.txt
+2025-04-16 11:10:58,354 - print_process - INFO - Arquivo enviado para impressão com Notepad: C:\Users\caram\AppData\Local\Temp\pedido_35791.txt
+2025-04-16 11:10:58,354 - print_process - INFO - Pedido impresso com sucesso via método alternativo
+2025-04-16 11:10:58,355 - print_process - INFO - Resultado registrado: True, Pedido impresso com sucesso via método alternativo
+2025-04-16 11:19:10,887 - print_process - INFO - ==================================================
+2025-04-16 11:19:10,887 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 11:19:10
+2025-04-16 11:19:10,887 - print_process - INFO - Argumentos: ['print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\pedido_teste.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\resultado_teste.json']
+2025-04-16 11:19:10,887 - print_process - INFO - ==================================================
+2025-04-16 11:19:10,887 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 11:19:10
+2025-04-16 11:19:10,887 - print_process - INFO - Argumentos: ['print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\pedido_teste.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\resultado_teste.json']
+2025-04-16 11:19:10,888 - print_process - INFO - Pedido carregado diretamente: 35791
+2025-04-16 11:19:10,888 - print_process - INFO - Tentando impressão via porta serial...
+2025-04-16 11:19:10,888 - print_process - INFO - Usando porta manual configurada: COM3
+2025-04-16 11:19:10,889 - print_process - WARNING - Porta COM3 está sendo usada por outro processo
+2025-04-16 11:19:10,889 - print_process - WARNING - Porta COM3 não está disponível ou está sendo usada por outro processo
+2025-04-16 11:19:10,889 - print_process - INFO - Aguardando 1 segundos e tentando novamente...
+2025-04-16 11:19:11,890 - print_process - WARNING - Porta COM3 está sendo usada por outro processo
+2025-04-16 11:19:11,890 - print_process - WARNING - Porta COM3 continua não disponível após espera
+2025-04-16 11:19:11,890 - print_process - INFO - Aguardando 2 segundos e tentando novamente...
+2025-04-16 11:19:13,890 - print_process - WARNING - Porta COM3 está sendo usada por outro processo
+2025-04-16 11:19:13,890 - print_process - WARNING - Porta COM3 continua não disponível após espera
+2025-04-16 11:19:13,890 - print_process - INFO - Aguardando 3 segundos e tentando novamente...
+2025-04-16 11:19:16,891 - print_process - WARNING - Porta COM3 está sendo usada por outro processo
+2025-04-16 11:19:16,891 - print_process - WARNING - Porta COM3 continua não disponível após espera
+2025-04-16 11:19:16,891 - print_process - ERROR - Não foi possível conectar à porta COM3
+2025-04-16 11:19:16,891 - print_process - WARNING - Falha na impressão via porta serial, tentando alternativa...
+2025-04-16 11:19:16,892 - print_process - INFO - Usando método alternativo de impressão com Notepad
+
+2025-04-16 11:19:16,894 - print_process - ERROR - Erro ao criar arquivo de texto: unsupported operand type(s) for +: 'dict' and 'str'
+2025-04-16 11:19:16,902 - print_process - ERROR - Traceback (most recent call last):
+  File "C:\Users\caram\OneDrive\Área de Trabalho\AcriPrint Programa\Acriprint V3\print_process.py", line 320, in criar_arquivo_texto
+    f.write(cliente + "\n\n")
+            ~~~~~~~~^~~~~~~~
+TypeError: unsupported operand type(s) for +: 'dict' and 'str'
+
+2025-04-16 11:19:16,903 - print_process - ERROR - Não foi possível criar o arquivo de texto para impressão
+2025-04-16 11:19:16,904 - print_process - INFO - Resultado registrado: False, Falha ao imprimir o pedido
+2025-04-16 11:19:42,349 - print_process - INFO - ==================================================
+2025-04-16 11:19:42,349 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 11:19:42
+2025-04-16 11:19:42,349 - print_process - INFO - Argumentos: ['print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\pedido_teste.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\resultado_teste.json']
+2025-04-16 11:19:42,349 - print_process - INFO - ==================================================
+2025-04-16 11:19:42,349 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 11:19:42
+2025-04-16 11:19:42,349 - print_process - INFO - Argumentos: ['print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\pedido_teste.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\resultado_teste.json']
+2025-04-16 11:19:42,350 - print_process - INFO - Pedido carregado diretamente: 35791
+2025-04-16 11:19:42,350 - print_process - INFO - Tentando impressão via porta serial...
+2025-04-16 11:19:42,351 - print_process - INFO - Usando porta manual configurada: COM3
+2025-04-16 11:19:42,351 - print_process - WARNING - Porta COM3 está sendo usada por outro processo
+2025-04-16 11:19:42,351 - print_process - WARNING - Porta COM3 não está disponível ou está sendo usada por outro processo
+2025-04-16 11:19:42,351 - print_process - INFO - Aguardando 1 segundos e tentando novamente...
+2025-04-16 11:19:43,352 - print_process - WARNING - Porta COM3 está sendo usada por outro processo
+2025-04-16 11:19:43,353 - print_process - WARNING - Porta COM3 continua não disponível após espera
+2025-04-16 11:19:43,353 - print_process - INFO - Aguardando 2 segundos e tentando novamente...
+2025-04-16 11:19:45,353 - print_process - WARNING - Porta COM3 está sendo usada por outro processo
+2025-04-16 11:19:45,354 - print_process - WARNING - Porta COM3 continua não disponível após espera
+2025-04-16 11:19:45,354 - print_process - INFO - Aguardando 3 segundos e tentando novamente...
+2025-04-16 11:19:48,355 - print_process - WARNING - Porta COM3 está sendo usada por outro processo
+2025-04-16 11:19:48,355 - print_process - WARNING - Porta COM3 continua não disponível após espera
+2025-04-16 11:19:48,355 - print_process - ERROR - Não foi possível conectar à porta COM3
+2025-04-16 11:19:48,355 - print_process - WARNING - Falha na impressão via porta serial, tentando alternativa...
+2025-04-16 11:19:48,355 - print_process - INFO - Usando método alternativo de impressão com Notepad
+
+2025-04-16 11:19:48,358 - print_process - INFO - Arquivo de texto criado com sucesso: C:\Users\caram\AppData\Local\Temp\pedido_35791.txt
+2025-04-16 11:19:48,358 - print_process - INFO - Executando comando: "C:\Windows\System32\notepad.exe" /p "C:\Users\caram\AppData\Local\Temp\pedido_35791.txt"
+2025-04-16 11:19:49,203 - print_process - INFO - Arquivo enviado para impressão com Notepad: C:\Users\caram\AppData\Local\Temp\pedido_35791.txt
+2025-04-16 11:19:49,203 - print_process - INFO - Pedido impresso com sucesso via método alternativo
+2025-04-16 11:19:49,204 - print_process - INFO - Resultado registrado: True, Pedido impresso com sucesso via método alternativo
+2025-04-16 11:21:04,999 - print_process - INFO - ==================================================
+2025-04-16 11:21:05,000 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 11:21:05
+2025-04-16 11:21:05,000 - print_process - INFO - Argumentos: ['print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\test_order_verification.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\test_result_verification.json']
+2025-04-16 11:21:05,000 - print_process - INFO - ==================================================
+2025-04-16 11:21:05,000 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 11:21:05
+2025-04-16 11:21:05,000 - print_process - INFO - Argumentos: ['print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\test_order_verification.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\test_result_verification.json']
+2025-04-16 11:21:05,007 - print_process - INFO - Pedido carregado diretamente: TEST-123
+2025-04-16 11:21:05,007 - print_process - INFO - Tentando impressão via porta serial...
+2025-04-16 11:21:05,007 - print_process - INFO - Usando porta manual configurada: COM3
+2025-04-16 11:21:05,008 - print_process - WARNING - Porta COM3 está sendo usada por outro processo
+2025-04-16 11:21:05,008 - print_process - WARNING - Porta COM3 não está disponível ou está sendo usada por outro processo
+2025-04-16 11:21:05,008 - print_process - INFO - Aguardando 1 segundos e tentando novamente...
+2025-04-16 11:21:06,009 - print_process - WARNING - Porta COM3 está sendo usada por outro processo
+2025-04-16 11:21:06,009 - print_process - WARNING - Porta COM3 continua não disponível após espera
+2025-04-16 11:21:06,009 - print_process - INFO - Aguardando 2 segundos e tentando novamente...
+2025-04-16 11:21:08,010 - print_process - WARNING - Porta COM3 está sendo usada por outro processo
+2025-04-16 11:21:08,011 - print_process - WARNING - Porta COM3 continua não disponível após espera
+2025-04-16 11:21:08,011 - print_process - INFO - Aguardando 3 segundos e tentando novamente...
+2025-04-16 11:21:11,011 - print_process - WARNING - Porta COM3 está sendo usada por outro processo
+2025-04-16 11:21:11,011 - print_process - WARNING - Porta COM3 continua não disponível após espera
+2025-04-16 11:21:11,011 - print_process - ERROR - Não foi possível conectar à porta COM3
+2025-04-16 11:21:11,011 - print_process - WARNING - Falha na impressão via porta serial, tentando alternativa...
+2025-04-16 11:21:11,011 - print_process - INFO - Usando método alternativo de impressão com Notepad
+
+2025-04-16 11:21:11,014 - print_process - INFO - Arquivo de texto criado com sucesso: C:\Users\caram\AppData\Local\Temp\pedido_TEST-123.txt
+2025-04-16 11:21:11,014 - print_process - INFO - Executando comando: "C:\Windows\System32\notepad.exe" /p "C:\Users\caram\AppData\Local\Temp\pedido_TEST-123.txt"
+2025-04-16 11:21:11,778 - print_process - INFO - Arquivo enviado para impressão com Notepad: C:\Users\caram\AppData\Local\Temp\pedido_TEST-123.txt
+2025-04-16 11:21:11,778 - print_process - INFO - Pedido impresso com sucesso via método alternativo
+2025-04-16 11:21:11,780 - print_process - INFO - Resultado registrado: True, Pedido impresso com sucesso via método alternativo
+2025-04-16 11:39:43,333 - print_process - INFO - ==================================================
+2025-04-16 11:39:43,333 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 11:39:43
+2025-04-16 11:39:43,333 - print_process - INFO - Argumentos: ['print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\pedido_teste.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\resultado_teste.json']
+2025-04-16 11:39:43,341 - print_process - INFO - Pedido carregado diretamente: #35791
+2025-04-16 11:39:43,366 - print_process - INFO - Tentando impressão via porta serial...
+2025-04-16 11:39:43,367 - print_process - ERROR - Erro ao imprimir pedido via serial: name 'obter_porta_impressora' is not defined
+2025-04-16 11:39:43,370 - print_process - ERROR - Traceback (most recent call last):
+  File "C:\Users\caram\OneDrive\Área de Trabalho\AcriPrint Programa\Acriprint V3\print_process.py", line 152, in imprimir_pedido_serial
+    porta = obter_porta_impressora()
+            ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'obter_porta_impressora' is not defined
+
+2025-04-16 11:39:43,370 - print_process - INFO - Pedido impresso com sucesso via porta serial
+2025-04-16 11:39:43,371 - print_process - INFO - Resultado registrado: True, Pedido impresso com sucesso via porta serial
+2025-04-16 12:42:36,157 - print_process - INFO - ==================================================
+2025-04-16 12:42:36,157 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 12:42:36
+2025-04-16 12:42:36,157 - print_process - INFO - Argumentos: ['print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\pedido_teste.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\resultado_teste.json']
+2025-04-16 12:42:36,157 - print_process - INFO - Processando impressão: pedido=C:\Users\caram\AppData\Local\Temp\pedido_teste.json, resultado=C:\Users\caram\AppData\Local\Temp\resultado_teste.json
+2025-04-16 12:42:36,158 - print_process - ERROR - Erro no processo de impressão: name 'carregar_config_impressora' is not defined
+2025-04-16 12:42:36,161 - print_process - ERROR - Traceback (most recent call last):
+  File "C:\Users\caram\OneDrive\Área de Trabalho\AcriPrint Programa\Acriprint V3\print_process.py", line 573, in processa_impressao
+    config = carregar_config_impressora()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'carregar_config_impressora' is not defined
+
+2025-04-16 12:51:43,163 - print_process - INFO - ==================================================
+2025-04-16 12:51:43,163 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 12:51:43
+2025-04-16 12:51:43,164 - print_process - INFO - Argumentos: ['print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\pedido_teste.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\resultado_teste.json']
+2025-04-16 12:51:43,164 - print_process - INFO - Processando impressão: pedido=C:\Users\caram\AppData\Local\Temp\pedido_teste.json, resultado=C:\Users\caram\AppData\Local\Temp\resultado_teste.json
+2025-04-16 12:51:43,165 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 1, 'tentativas_conexao': 3, 'tempo_espera_entre_tentativas': 2, 'baudrates': [9600, 115200, 57600, 38400, 19200, 4800], 'cortar_papel': True, 'metodos_impressao': ['serial', 'notepad', 'html'], 'largura_papel': 32, 'tipo_impressora': '58mm', 'avanco_final': 4, 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'codificacao': 'cp850'}
+2025-04-16 12:51:43,165 - print_process - INFO - Tentando método: serial
+2025-04-16 12:51:43,165 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 9600
+2025-04-16 12:51:43,166 - print_process - ERROR - Erro ao imprimir via serial: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 12:51:43,197 - print_process - ERROR - Traceback (most recent call last):
+  File "C:\Users\caram\OneDrive\Área de Trabalho\AcriPrint Programa\Acriprint V3\print_process.py", line 826, in processa_impressao
+    ser = serial.Serial(porta_manual, baudrate, timeout=timeout)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 33, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialutil.py", line 244, in __init__
+    self.open()
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+
+2025-04-16 12:51:43,198 - print_process - INFO - Tentando método: notepad
+2025-04-16 12:51:43,199 - print_process - INFO - Arquivo para impressão criado: C:\Users\caram\AppData\Local\Temp\pedido_acriprint.txt
+2025-04-16 12:51:45,215 - print_process - INFO - Impressão via Notepad concluída com sucesso!
+2025-04-16 12:52:05,747 - print_process - INFO - ==================================================
+2025-04-16 12:52:05,747 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 12:52:05
+2025-04-16 12:52:05,748 - print_process - INFO - Argumentos: ['print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\pedido_teste.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\resultado_teste.json']
+2025-04-16 12:52:05,748 - print_process - INFO - Processando impressão: pedido=C:\Users\caram\AppData\Local\Temp\pedido_teste.json, resultado=C:\Users\caram\AppData\Local\Temp\resultado_teste.json
+2025-04-16 12:52:05,749 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 1, 'tentativas_conexao': 3, 'tempo_espera_entre_tentativas': 2, 'baudrates': [9600, 115200, 57600, 38400, 19200, 4800], 'cortar_papel': True, 'metodos_impressao': ['serial', 'notepad', 'html'], 'largura_papel': 32, 'tipo_impressora': '58mm', 'avanco_final': 4, 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'codificacao': 'cp850'}
+2025-04-16 12:52:05,749 - print_process - INFO - Tentando método: serial
+2025-04-16 12:52:05,749 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 9600
+2025-04-16 12:52:05,749 - print_process - ERROR - Erro ao imprimir via serial: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 12:52:05,753 - print_process - ERROR - Traceback (most recent call last):
+  File "C:\Users\caram\OneDrive\Área de Trabalho\AcriPrint Programa\Acriprint V3\print_process.py", line 826, in processa_impressao
+    ser = serial.Serial(porta_manual, baudrate, timeout=timeout)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 33, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialutil.py", line 244, in __init__
+    self.open()
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+
+2025-04-16 12:52:05,753 - print_process - INFO - Tentando método: notepad
+2025-04-16 12:52:05,754 - print_process - INFO - Arquivo para impressão criado: C:\Users\caram\AppData\Local\Temp\pedido_acriprint.txt
+2025-04-16 12:52:07,778 - print_process - INFO - Impressão via Notepad concluída com sucesso!
+2025-04-16 12:52:37,753 - print_process - INFO - ==================================================
+2025-04-16 12:52:37,753 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 12:52:37
+2025-04-16 12:52:37,753 - print_process - INFO - Argumentos: ['print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\pedido_teste.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\resultado_teste.json']
+2025-04-16 12:52:37,754 - print_process - INFO - Processando impressão: pedido=C:\Users\caram\AppData\Local\Temp\pedido_teste.json, resultado=C:\Users\caram\AppData\Local\Temp\resultado_teste.json
+2025-04-16 12:52:37,755 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 1, 'tentativas_conexao': 3, 'tempo_espera_entre_tentativas': 2, 'baudrates': [9600, 115200, 57600, 38400, 19200, 4800], 'cortar_papel': True, 'metodos_impressao': ['serial', 'notepad', 'html'], 'largura_papel': 32, 'tipo_impressora': '58mm', 'avanco_final': 4, 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'codificacao': 'cp850'}
+2025-04-16 12:52:37,755 - print_process - INFO - Tentando método: serial
+2025-04-16 12:52:37,755 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 9600
+2025-04-16 12:52:37,755 - print_process - ERROR - Erro ao imprimir via serial: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 12:52:37,760 - print_process - ERROR - Traceback (most recent call last):
+  File "C:\Users\caram\OneDrive\Área de Trabalho\AcriPrint Programa\Acriprint V3\print_process.py", line 826, in processa_impressao
+    ser = serial.Serial(porta_manual, baudrate, timeout=timeout)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 33, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialutil.py", line 244, in __init__
+    self.open()
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+
+2025-04-16 12:52:37,760 - print_process - INFO - Tentando método: notepad
+2025-04-16 12:52:37,760 - print_process - INFO - Arquivo para impressão criado: C:\Users\caram\AppData\Local\Temp\pedido_acriprint.txt
+2025-04-16 12:52:39,624 - print_process - INFO - Impressão via Notepad concluída com sucesso!
+2025-04-16 12:53:52,339 - print_process - INFO - ==================================================
+2025-04-16 12:53:52,340 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 12:53:52
+2025-04-16 12:53:52,340 - print_process - INFO - Argumentos: ['print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\pedido_teste.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\resultado_teste.json']
+2025-04-16 12:53:52,340 - print_process - INFO - Processando impressão: pedido=C:\Users\caram\AppData\Local\Temp\pedido_teste.json, resultado=C:\Users\caram\AppData\Local\Temp\resultado_teste.json
+2025-04-16 12:53:52,341 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 1, 'tentativas_conexao': 3, 'tempo_espera_entre_tentativas': 2, 'baudrates': [9600, 115200, 57600, 38400, 19200, 4800], 'cortar_papel': True, 'metodos_impressao': ['serial', 'notepad', 'html'], 'largura_papel': 32, 'tipo_impressora': '58mm', 'avanco_final': 4, 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'codificacao': 'cp850'}
+2025-04-16 12:53:52,341 - print_process - INFO - Tentando método: serial
+2025-04-16 12:53:52,341 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 9600
+2025-04-16 12:53:52,341 - print_process - ERROR - Erro ao imprimir via serial: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 12:53:52,346 - print_process - ERROR - Traceback (most recent call last):
+  File "C:\Users\caram\OneDrive\Área de Trabalho\AcriPrint Programa\Acriprint V3\print_process.py", line 925, in processa_impressao
+    ser = serial.Serial(porta_manual, baudrate, timeout=timeout)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 33, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialutil.py", line 244, in __init__
+    self.open()
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+
+2025-04-16 12:53:52,346 - print_process - INFO - Tentando método: notepad
+2025-04-16 12:53:52,347 - print_process - INFO - Arquivo para impressão criado: C:\Users\caram\AppData\Local\Temp\pedido_acriprint.txt
+2025-04-16 12:53:54,280 - print_process - INFO - Impressão via Notepad concluída com sucesso!
+2025-04-16 12:54:06,930 - print_process - INFO - ==================================================
+2025-04-16 12:54:06,930 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 12:54:06
+2025-04-16 12:54:06,930 - print_process - INFO - Argumentos: ['print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\pedido_teste.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\resultado_teste.json']
+2025-04-16 12:54:06,930 - print_process - INFO - Processando impressão: pedido=C:\Users\caram\AppData\Local\Temp\pedido_teste.json, resultado=C:\Users\caram\AppData\Local\Temp\resultado_teste.json
+2025-04-16 12:54:06,931 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 1, 'tentativas_conexao': 3, 'tempo_espera_entre_tentativas': 2, 'baudrates': [9600, 115200, 57600, 38400, 19200, 4800], 'cortar_papel': True, 'metodos_impressao': ['serial', 'notepad', 'html'], 'largura_papel': 32, 'tipo_impressora': '58mm', 'avanco_final': 4, 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'codificacao': 'cp850'}
+2025-04-16 12:54:06,931 - print_process - INFO - Tentando método: serial
+2025-04-16 12:54:06,931 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 9600
+2025-04-16 12:54:06,932 - print_process - ERROR - Erro ao imprimir via serial: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 12:54:06,937 - print_process - ERROR - Traceback (most recent call last):
+  File "C:\Users\caram\OneDrive\Área de Trabalho\AcriPrint Programa\Acriprint V3\print_process.py", line 925, in processa_impressao
+    ser = serial.Serial(porta_manual, baudrate, timeout=timeout)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 33, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialutil.py", line 244, in __init__
+    self.open()
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+
+2025-04-16 12:54:06,937 - print_process - INFO - Tentando método: notepad
+2025-04-16 12:54:06,938 - print_process - INFO - Arquivo para impressão criado: C:\Users\caram\AppData\Local\Temp\pedido_acriprint.txt
+2025-04-16 12:54:08,809 - print_process - INFO - Impressão via Notepad concluída com sucesso!
+2025-04-16 12:54:26,431 - print_process - INFO - ==================================================
+2025-04-16 12:54:26,431 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 12:54:26
+2025-04-16 12:54:26,431 - print_process - INFO - Argumentos: ['print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\pedido_teste.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\resultado_teste.json']
+2025-04-16 12:54:26,431 - print_process - INFO - Processando impressão: pedido=C:\Users\caram\AppData\Local\Temp\pedido_teste.json, resultado=C:\Users\caram\AppData\Local\Temp\resultado_teste.json
+2025-04-16 12:54:26,432 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 1, 'tentativas_conexao': 3, 'tempo_espera_entre_tentativas': 2, 'baudrates': [9600, 115200, 57600, 38400, 19200, 4800], 'cortar_papel': True, 'metodos_impressao': ['serial', 'notepad', 'html'], 'largura_papel': 32, 'tipo_impressora': '58mm', 'avanco_final': 4, 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'codificacao': 'cp850'}
+2025-04-16 12:54:26,432 - print_process - INFO - Tentando método: serial
+2025-04-16 12:54:26,432 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 9600
+2025-04-16 12:54:26,432 - print_process - ERROR - Erro ao imprimir via serial: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 12:54:26,438 - print_process - ERROR - Traceback (most recent call last):
+  File "C:\Users\caram\OneDrive\Área de Trabalho\AcriPrint Programa\Acriprint V3\print_process.py", line 925, in processa_impressao
+    ser = serial.Serial(porta_manual, baudrate, timeout=timeout)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 33, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialutil.py", line 244, in __init__
+    self.open()
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+
+2025-04-16 12:54:26,438 - print_process - INFO - Tentando método: notepad
+2025-04-16 12:54:26,439 - print_process - INFO - Arquivo para impressão criado: C:\Users\caram\AppData\Local\Temp\pedido_acriprint.txt
+2025-04-16 12:54:28,339 - print_process - INFO - Impressão via Notepad concluída com sucesso!
+2025-04-16 12:55:41,966 - print_process - INFO - ==================================================
+2025-04-16 12:55:41,966 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 12:55:41
+2025-04-16 12:55:41,966 - print_process - INFO - Argumentos: ['print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\pedido_teste.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\resultado_teste.json']
+2025-04-16 12:55:41,967 - print_process - INFO - Processando impressão: pedido=C:\Users\caram\AppData\Local\Temp\pedido_teste.json, resultado=C:\Users\caram\AppData\Local\Temp\resultado_teste.json
+2025-04-16 12:55:41,968 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 1, 'tentativas_conexao': 3, 'tempo_espera_entre_tentativas': 2, 'baudrates': [9600, 115200, 57600, 38400, 19200, 4800], 'cortar_papel': True, 'metodos_impressao': ['serial', 'notepad', 'html'], 'largura_papel': 32, 'tipo_impressora': '58mm', 'avanco_final': 4, 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'codificacao': 'cp850'}
+2025-04-16 12:55:41,968 - print_process - INFO - Tentando método: serial
+2025-04-16 12:55:41,968 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 9600
+2025-04-16 12:55:41,969 - print_process - ERROR - Erro ao imprimir via serial: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 12:55:41,973 - print_process - ERROR - Traceback (most recent call last):
+  File "C:\Users\caram\OneDrive\Área de Trabalho\AcriPrint Programa\Acriprint V3\print_process.py", line 931, in processa_impressao
+    ser = serial.Serial(porta_manual, baudrate, timeout=timeout)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 33, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialutil.py", line 244, in __init__
+    self.open()
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+
+2025-04-16 12:55:41,973 - print_process - INFO - Tentando método: notepad
+2025-04-16 12:55:41,974 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 1, 'tentativas_conexao': 3, 'tempo_espera_entre_tentativas': 2, 'baudrates': [9600, 115200, 57600, 38400, 19200, 4800], 'cortar_papel': True, 'metodos_impressao': ['serial', 'notepad', 'html'], 'largura_papel': 32, 'tipo_impressora': '58mm', 'avanco_final': 4, 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'codificacao': 'cp850'}
+2025-04-16 12:55:41,975 - print_process - INFO - Arquivo de texto criado com sucesso: C:\Users\caram\AppData\Local\Temp\pedido_35791.txt
+2025-04-16 12:55:41,975 - print_process - INFO - Usando método de impressão Notepad. Arquivo: C:\Users\caram\AppData\Local\Temp\pedido_35791.txt
+2025-04-16 12:55:41,975 - print_process - INFO - Executando comando: "C:\WINDOWS\System32\notepad.exe" /p "C:\Users\caram\AppData\Local\Temp\pedido_35791.txt"
+2025-04-16 12:55:43,025 - print_process - INFO - Impressão via Notepad concluída com sucesso!
+2025-04-16 12:56:13,285 - print_process - INFO - ==================================================
+2025-04-16 12:56:13,285 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 12:56:13
+2025-04-16 12:56:13,285 - print_process - INFO - Argumentos: ['teste_formato_impressao.py']
+2025-04-16 12:56:13,286 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 1, 'tentativas_conexao': 3, 'tempo_espera_entre_tentativas': 2, 'baudrates': [9600, 115200, 57600, 38400, 19200, 4800], 'cortar_papel': True, 'metodos_impressao': ['serial', 'notepad', 'html'], 'largura_papel': 32, 'tipo_impressora': '58mm', 'avanco_final': 4, 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'codificacao': 'cp850'}
+2025-04-16 12:56:13,287 - print_process - INFO - Arquivo de texto criado com sucesso: C:\Users\caram\AppData\Local\Temp\teste_formato.txt
+2025-04-16 13:07:14,161 - print_process - INFO - ==================================================
+2025-04-16 13:07:14,164 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 13:07:14
+2025-04-16 13:07:14,165 - print_process - INFO - Argumentos: ['print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\pedido_teste.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\resultado_teste.json']
+2025-04-16 13:07:14,166 - print_process - INFO - Processando impressão: pedido=C:\Users\caram\AppData\Local\Temp\pedido_teste.json, resultado=C:\Users\caram\AppData\Local\Temp\resultado_teste.json
+2025-04-16 13:07:14,168 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 1, 'tentativas_conexao': 3, 'tempo_espera_entre_tentativas': 2, 'baudrates': [9600, 115200, 57600, 38400, 19200, 4800], 'cortar_papel': True, 'metodos_impressao': ['serial', 'notepad', 'html'], 'largura_papel': 32, 'tipo_impressora': '58mm', 'avanco_final': 4, 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'codificacao': 'cp437', 'impressoras_ignoradas': ['EPSON L375', 'L375 Series', 'EPSON L375 Series']}
+2025-04-16 13:07:14,169 - print_process - INFO - Tentando método: serial
+2025-04-16 13:07:14,169 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 9600
+2025-04-16 13:07:14,169 - print_process - ERROR - Erro ao imprimir via serial: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 13:07:14,174 - print_process - ERROR - Traceback (most recent call last):
+  File "C:\Users\caram\OneDrive\Área de Trabalho\AcriPrint Programa\Acriprint V3\print_process.py", line 980, in processa_impressao
+    ser = serial.Serial(porta_manual, baudrate, timeout=timeout)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 33, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialutil.py", line 244, in __init__
+    self.open()
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+
+2025-04-16 13:07:14,175 - print_process - INFO - Tentando método: notepad
+2025-04-16 13:07:14,175 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 1, 'tentativas_conexao': 3, 'tempo_espera_entre_tentativas': 2, 'baudrates': [9600, 115200, 57600, 38400, 19200, 4800], 'cortar_papel': True, 'metodos_impressao': ['serial', 'notepad', 'html'], 'largura_papel': 32, 'tipo_impressora': '58mm', 'avanco_final': 4, 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'codificacao': 'cp437', 'impressoras_ignoradas': ['EPSON L375', 'L375 Series', 'EPSON L375 Series']}
+2025-04-16 13:07:14,176 - print_process - INFO - Arquivo de texto criado com sucesso: C:\Users\caram\AppData\Local\Temp\pedido_35791.txt
+2025-04-16 13:07:14,176 - print_process - INFO - Usando método de impressão Notepad. Arquivo: C:\Users\caram\AppData\Local\Temp\pedido_35791.txt
+2025-04-16 13:07:14,176 - print_process - INFO - Executando comando: "C:\WINDOWS\System32\notepad.exe" /p "C:\Users\caram\AppData\Local\Temp\pedido_35791.txt"
+2025-04-16 13:07:15,165 - print_process - INFO - Impressão via Notepad concluída com sucesso!
+2025-04-16 13:10:23,476 - print_process - INFO - ==================================================
+2025-04-16 13:10:23,476 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 13:10:23
+2025-04-16 13:10:23,476 - print_process - INFO - Argumentos: ['c:\\Users\\caram\\OneDrive\\Área de Trabalho\\AcriPrint Programa\\Acriprint V3\\print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmptmb6l8vq.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmpoqm97vs6.json']
+2025-04-16 13:10:23,477 - print_process - INFO - Processando impressão: pedido=C:\Users\caram\AppData\Local\Temp\tmptmb6l8vq.json, resultado=C:\Users\caram\AppData\Local\Temp\tmpoqm97vs6.json
+2025-04-16 13:10:23,484 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 1, 'tentativas_conexao': 3, 'tempo_espera_entre_tentativas': 2, 'baudrates': [9600, 115200, 57600, 38400, 19200, 4800], 'cortar_papel': True, 'metodos_impressao': ['serial', 'notepad', 'html'], 'largura_papel': 32, 'tipo_impressora': '58mm', 'avanco_final': 4, 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'codificacao': 'cp437', 'impressoras_ignoradas': ['EPSON L375', 'L375 Series', 'EPSON L375 Series']}
+2025-04-16 13:10:23,484 - print_process - INFO - Tentando método: serial
+2025-04-16 13:10:23,484 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 9600
+2025-04-16 13:10:23,484 - print_process - ERROR - Erro ao imprimir via serial: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 13:10:23,489 - print_process - ERROR - Traceback (most recent call last):
+  File "c:\Users\caram\OneDrive\Área de Trabalho\AcriPrint Programa\Acriprint V3\print_process.py", line 980, in processa_impressao
+    ser = serial.Serial(porta_manual, baudrate, timeout=timeout)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 33, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialutil.py", line 244, in __init__
+    self.open()
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+
+2025-04-16 13:10:23,489 - print_process - INFO - Tentando método: notepad
+2025-04-16 13:10:23,490 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 1, 'tentativas_conexao': 3, 'tempo_espera_entre_tentativas': 2, 'baudrates': [9600, 115200, 57600, 38400, 19200, 4800], 'cortar_papel': True, 'metodos_impressao': ['serial', 'notepad', 'html'], 'largura_papel': 32, 'tipo_impressora': '58mm', 'avanco_final': 4, 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'codificacao': 'cp437', 'impressoras_ignoradas': ['EPSON L375', 'L375 Series', 'EPSON L375 Series']}
+2025-04-16 13:10:23,491 - print_process - INFO - Arquivo de texto criado com sucesso: C:\Users\caram\AppData\Local\Temp\pedido_115163.txt
+2025-04-16 13:10:23,491 - print_process - INFO - Usando método de impressão Notepad. Arquivo: C:\Users\caram\AppData\Local\Temp\pedido_115163.txt
+2025-04-16 13:10:23,491 - print_process - INFO - Executando comando: "C:\WINDOWS\System32\notepad.exe" /p "C:\Users\caram\AppData\Local\Temp\pedido_115163.txt"
+2025-04-16 13:10:24,263 - print_process - INFO - Impressão via Notepad concluída com sucesso!
+2025-04-16 13:15:36,912 - print_process - INFO - ==================================================
+2025-04-16 13:15:36,912 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 13:15:36
+2025-04-16 13:15:36,912 - print_process - INFO - Argumentos: ['c:\\Users\\caram\\OneDrive\\Área de Trabalho\\AcriPrint Programa\\Acriprint V3\\print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmpcxelthjs.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmprai22bry.json']
+2025-04-16 13:15:36,912 - print_process - INFO - Processando impressão: pedido=C:\Users\caram\AppData\Local\Temp\tmpcxelthjs.json, resultado=C:\Users\caram\AppData\Local\Temp\tmprai22bry.json
+2025-04-16 13:15:36,921 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 1, 'tentativas_conexao': 3, 'tempo_espera_entre_tentativas': 2, 'baudrates': [9600, 115200, 57600, 38400, 19200, 4800], 'cortar_papel': True, 'metodos_impressao': ['serial', 'notepad', 'html'], 'largura_papel': 32, 'tipo_impressora': '58mm', 'avanco_final': 4, 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'codificacao': 'cp437', 'impressoras_ignoradas': ['EPSON L375', 'L375 Series', 'EPSON L375 Series'], 'impressora_preferida': 'POS58', 'usar_impressora_windows': True}
+2025-04-16 13:15:36,922 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 1, 'tentativas_conexao': 3, 'tempo_espera_entre_tentativas': 2, 'baudrates': [9600, 115200, 57600, 38400, 19200, 4800], 'cortar_papel': True, 'metodos_impressao': ['serial', 'notepad', 'html'], 'largura_papel': 32, 'tipo_impressora': '58mm', 'avanco_final': 4, 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'codificacao': 'cp437', 'impressoras_ignoradas': ['EPSON L375', 'L375 Series', 'EPSON L375 Series'], 'impressora_preferida': 'POS58', 'usar_impressora_windows': True}
+2025-04-16 13:15:36,922 - print_process - INFO - Arquivo de texto criado com sucesso: C:\Users\caram\AppData\Local\Temp\pedido_temp.txt
+2025-04-16 13:15:36,922 - print_process - INFO - Usando impressora Windows configurada. Arquivo: C:\Users\caram\AppData\Local\Temp\pedido_temp.txt
+2025-04-16 13:15:36,922 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 1, 'tentativas_conexao': 3, 'tempo_espera_entre_tentativas': 2, 'baudrates': [9600, 115200, 57600, 38400, 19200, 4800], 'cortar_papel': True, 'metodos_impressao': ['serial', 'notepad', 'html'], 'largura_papel': 32, 'tipo_impressora': '58mm', 'avanco_final': 4, 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'codificacao': 'cp437', 'impressoras_ignoradas': ['EPSON L375', 'L375 Series', 'EPSON L375 Series'], 'impressora_preferida': 'POS58', 'usar_impressora_windows': True}
+2025-04-16 13:15:36,924 - print_process - INFO - Impressoras disponíveis: ['Microsoft Print to PDF', 'L375 Series(Rede)', 'EPSON141686 (L375 Series)', 'ALPDF', 'POS58 Printer']
+2025-04-16 13:15:36,924 - print_process - WARNING - Impressora 'POS58' não encontrada. Usando método alternativo.
+2025-04-16 13:15:36,924 - print_process - ERROR - Erro ao imprimir com impressora Windows: name 'imprimir_com_notepad' is not defined
+2025-04-16 13:15:36,942 - print_process - ERROR - Traceback (most recent call last):
+  File "c:\Users\caram\OneDrive\Área de Trabalho\AcriPrint Programa\Acriprint V3\print_process.py", line 758, in imprimir_com_impressora_windows
+    return imprimir_com_notepad(arquivo_texto)
+           ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'imprimir_com_notepad' is not defined
+
+2025-04-16 13:15:36,942 - print_process - WARNING - Falha ao imprimir via impressora Windows. Tentando métodos alternativos.
+2025-04-16 13:15:36,942 - print_process - INFO - Tentando método: serial
+2025-04-16 13:15:36,942 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 9600
+2025-04-16 13:15:36,942 - print_process - ERROR - Erro ao imprimir via serial: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 13:15:36,943 - print_process - ERROR - Traceback (most recent call last):
+  File "c:\Users\caram\OneDrive\Área de Trabalho\AcriPrint Programa\Acriprint V3\print_process.py", line 868, in processa_impressao
+    ser = serial.Serial(porta_manual, baudrate, timeout=timeout)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 33, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialutil.py", line 244, in __init__
+    self.open()
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+
+2025-04-16 13:15:36,944 - print_process - INFO - Tentando método: notepad
+2025-04-16 13:15:36,944 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 1, 'tentativas_conexao': 3, 'tempo_espera_entre_tentativas': 2, 'baudrates': [9600, 115200, 57600, 38400, 19200, 4800], 'cortar_papel': True, 'metodos_impressao': ['serial', 'notepad', 'html'], 'largura_papel': 32, 'tipo_impressora': '58mm', 'avanco_final': 4, 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'codificacao': 'cp437', 'impressoras_ignoradas': ['EPSON L375', 'L375 Series', 'EPSON L375 Series'], 'impressora_preferida': 'POS58', 'usar_impressora_windows': True}
+2025-04-16 13:15:36,944 - print_process - INFO - Arquivo de texto criado com sucesso: C:\Users\caram\AppData\Local\Temp\pedido_temp.txt
+2025-04-16 13:15:36,944 - print_process - INFO - Usando método de impressão Notepad. Arquivo: C:\Users\caram\AppData\Local\Temp\pedido_temp.txt
+2025-04-16 13:15:36,944 - print_process - INFO - Executando comando: "C:\WINDOWS\System32\notepad.exe" /p "C:\Users\caram\AppData\Local\Temp\pedido_temp.txt"
+2025-04-16 13:15:37,704 - print_process - INFO - Impressão via Notepad concluída com sucesso!
+2025-04-16 13:15:58,558 - print_process - INFO - ==================================================
+2025-04-16 13:15:58,558 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 13:15:58
+2025-04-16 13:15:58,558 - print_process - INFO - Argumentos: ['c:\\Users\\caram\\OneDrive\\Área de Trabalho\\AcriPrint Programa\\Acriprint V3\\print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmpnbqqenj8.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmpu6o_rv34.json']
+2025-04-16 13:15:58,559 - print_process - INFO - Processando impressão: pedido=C:\Users\caram\AppData\Local\Temp\tmpnbqqenj8.json, resultado=C:\Users\caram\AppData\Local\Temp\tmpu6o_rv34.json
+2025-04-16 13:15:58,560 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 1, 'tentativas_conexao': 3, 'tempo_espera_entre_tentativas': 2, 'baudrates': [9600, 115200, 57600, 38400, 19200, 4800], 'cortar_papel': True, 'metodos_impressao': ['serial', 'notepad', 'html'], 'largura_papel': 32, 'tipo_impressora': '58mm', 'avanco_final': 4, 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'codificacao': 'cp437', 'impressoras_ignoradas': ['EPSON L375', 'L375 Series', 'EPSON L375 Series'], 'impressora_preferida': 'POS58', 'usar_impressora_windows': True}
+2025-04-16 13:15:58,561 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 1, 'tentativas_conexao': 3, 'tempo_espera_entre_tentativas': 2, 'baudrates': [9600, 115200, 57600, 38400, 19200, 4800], 'cortar_papel': True, 'metodos_impressao': ['serial', 'notepad', 'html'], 'largura_papel': 32, 'tipo_impressora': '58mm', 'avanco_final': 4, 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'codificacao': 'cp437', 'impressoras_ignoradas': ['EPSON L375', 'L375 Series', 'EPSON L375 Series'], 'impressora_preferida': 'POS58', 'usar_impressora_windows': True}
+2025-04-16 13:15:58,561 - print_process - INFO - Arquivo de texto criado com sucesso: C:\Users\caram\AppData\Local\Temp\pedido_115163.txt
+2025-04-16 13:15:58,562 - print_process - INFO - Usando impressora Windows configurada. Arquivo: C:\Users\caram\AppData\Local\Temp\pedido_115163.txt
+2025-04-16 13:15:58,562 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 1, 'tentativas_conexao': 3, 'tempo_espera_entre_tentativas': 2, 'baudrates': [9600, 115200, 57600, 38400, 19200, 4800], 'cortar_papel': True, 'metodos_impressao': ['serial', 'notepad', 'html'], 'largura_papel': 32, 'tipo_impressora': '58mm', 'avanco_final': 4, 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'codificacao': 'cp437', 'impressoras_ignoradas': ['EPSON L375', 'L375 Series', 'EPSON L375 Series'], 'impressora_preferida': 'POS58', 'usar_impressora_windows': True}
+2025-04-16 13:15:58,563 - print_process - INFO - Impressoras disponíveis: ['Microsoft Print to PDF', 'L375 Series(Rede)', 'EPSON141686 (L375 Series)', 'ALPDF', 'POS58 Printer']
+2025-04-16 13:15:58,563 - print_process - WARNING - Impressora 'POS58' não encontrada. Usando método alternativo.
+2025-04-16 13:15:58,563 - print_process - ERROR - Erro ao imprimir com impressora Windows: name 'imprimir_com_notepad' is not defined
+2025-04-16 13:15:58,566 - print_process - ERROR - Traceback (most recent call last):
+  File "c:\Users\caram\OneDrive\Área de Trabalho\AcriPrint Programa\Acriprint V3\print_process.py", line 758, in imprimir_com_impressora_windows
+    return imprimir_com_notepad(arquivo_texto)
+           ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'imprimir_com_notepad' is not defined
+
+2025-04-16 13:15:58,566 - print_process - WARNING - Falha ao imprimir via impressora Windows. Tentando métodos alternativos.
+2025-04-16 13:15:58,566 - print_process - INFO - Tentando método: serial
+2025-04-16 13:15:58,566 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 9600
+2025-04-16 13:15:58,566 - print_process - ERROR - Erro ao imprimir via serial: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 13:15:58,567 - print_process - ERROR - Traceback (most recent call last):
+  File "c:\Users\caram\OneDrive\Área de Trabalho\AcriPrint Programa\Acriprint V3\print_process.py", line 868, in processa_impressao
+    ser = serial.Serial(porta_manual, baudrate, timeout=timeout)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 33, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialutil.py", line 244, in __init__
+    self.open()
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+
+2025-04-16 13:15:58,567 - print_process - INFO - Tentando método: notepad
+2025-04-16 13:15:58,568 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 1, 'tentativas_conexao': 3, 'tempo_espera_entre_tentativas': 2, 'baudrates': [9600, 115200, 57600, 38400, 19200, 4800], 'cortar_papel': True, 'metodos_impressao': ['serial', 'notepad', 'html'], 'largura_papel': 32, 'tipo_impressora': '58mm', 'avanco_final': 4, 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'codificacao': 'cp437', 'impressoras_ignoradas': ['EPSON L375', 'L375 Series', 'EPSON L375 Series'], 'impressora_preferida': 'POS58', 'usar_impressora_windows': True}
+2025-04-16 13:15:58,568 - print_process - INFO - Arquivo de texto criado com sucesso: C:\Users\caram\AppData\Local\Temp\pedido_115163.txt
+2025-04-16 13:15:58,568 - print_process - INFO - Usando método de impressão Notepad. Arquivo: C:\Users\caram\AppData\Local\Temp\pedido_115163.txt
+2025-04-16 13:15:58,568 - print_process - INFO - Executando comando: "C:\WINDOWS\System32\notepad.exe" /p "C:\Users\caram\AppData\Local\Temp\pedido_115163.txt"
+2025-04-16 13:15:59,298 - print_process - INFO - Impressão via Notepad concluída com sucesso!
+2025-04-16 13:16:21,388 - print_process - INFO - ==================================================
+2025-04-16 13:16:21,389 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 13:16:21
+2025-04-16 13:16:21,389 - print_process - INFO - Argumentos: ['c:\\Users\\caram\\OneDrive\\Área de Trabalho\\AcriPrint Programa\\Acriprint V3\\print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmpol660kji.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmp80adqgmp.json']
+2025-04-16 13:16:21,389 - print_process - INFO - Processando impressão: pedido=C:\Users\caram\AppData\Local\Temp\tmpol660kji.json, resultado=C:\Users\caram\AppData\Local\Temp\tmp80adqgmp.json
+2025-04-16 13:16:21,390 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 1, 'tentativas_conexao': 3, 'tempo_espera_entre_tentativas': 2, 'baudrates': [9600, 115200, 57600, 38400, 19200, 4800], 'cortar_papel': True, 'metodos_impressao': ['serial', 'notepad', 'html'], 'largura_papel': 32, 'tipo_impressora': '58mm', 'avanco_final': 4, 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'codificacao': 'cp437', 'impressoras_ignoradas': ['EPSON L375', 'L375 Series', 'EPSON L375 Series'], 'impressora_preferida': 'POS58', 'usar_impressora_windows': True}
+2025-04-16 13:16:21,391 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 1, 'tentativas_conexao': 3, 'tempo_espera_entre_tentativas': 2, 'baudrates': [9600, 115200, 57600, 38400, 19200, 4800], 'cortar_papel': True, 'metodos_impressao': ['serial', 'notepad', 'html'], 'largura_papel': 32, 'tipo_impressora': '58mm', 'avanco_final': 4, 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'codificacao': 'cp437', 'impressoras_ignoradas': ['EPSON L375', 'L375 Series', 'EPSON L375 Series'], 'impressora_preferida': 'POS58', 'usar_impressora_windows': True}
+2025-04-16 13:16:21,391 - print_process - INFO - Arquivo de texto criado com sucesso: C:\Users\caram\AppData\Local\Temp\pedido_temp.txt
+2025-04-16 13:16:21,391 - print_process - INFO - Usando impressora Windows configurada. Arquivo: C:\Users\caram\AppData\Local\Temp\pedido_temp.txt
+2025-04-16 13:16:21,392 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 1, 'tentativas_conexao': 3, 'tempo_espera_entre_tentativas': 2, 'baudrates': [9600, 115200, 57600, 38400, 19200, 4800], 'cortar_papel': True, 'metodos_impressao': ['serial', 'notepad', 'html'], 'largura_papel': 32, 'tipo_impressora': '58mm', 'avanco_final': 4, 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'codificacao': 'cp437', 'impressoras_ignoradas': ['EPSON L375', 'L375 Series', 'EPSON L375 Series'], 'impressora_preferida': 'POS58', 'usar_impressora_windows': True}
+2025-04-16 13:16:21,393 - print_process - INFO - Impressoras disponíveis: ['Microsoft Print to PDF', 'L375 Series(Rede)', 'EPSON141686 (L375 Series)', 'ALPDF', 'POS58 Printer']
+2025-04-16 13:16:21,393 - print_process - WARNING - Impressora 'POS58' não encontrada. Usando método alternativo.
+2025-04-16 13:16:21,468 - print_process - INFO - Executando comando: "C:\WINDOWS\System32\notepad.exe" /p "C:\Users\caram\AppData\Local\Temp\pedido_temp.txt"
+2025-04-16 13:16:22,127 - print_process - INFO - Arquivo enviado para impressão com Notepad: C:\Users\caram\AppData\Local\Temp\pedido_temp.txt
+2025-04-16 13:16:22,128 - print_process - INFO - Impressão via impressora Windows bem sucedida
+2025-04-16 13:20:28,841 - print_process - INFO - ==================================================
+2025-04-16 13:20:28,841 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 13:20:28
+2025-04-16 13:20:28,841 - print_process - INFO - Argumentos: ['teste_impressao_pos58.py']
+2025-04-16 13:20:28,844 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 1, 'tentativas_conexao': 3, 'tempo_espera_entre_tentativas': 2, 'baudrates': [9600, 115200, 57600, 38400, 19200, 4800], 'cortar_papel': True, 'metodos_impressao': ['serial', 'notepad', 'html'], 'largura_papel': 32, 'tipo_impressora': '58mm', 'avanco_final': 4, 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'codificacao': 'cp437', 'impressoras_ignoradas': ['EPSON L375', 'L375 Series', 'EPSON L375 Series', 'L375 Series(Rede)', 'EPSON141686 (L375 Series)'], 'impressora_preferida': 'POS58 Printer', 'usar_impressora_windows': True}
+2025-04-16 13:20:28,845 - print_process - INFO - Arquivo de texto criado com sucesso: C:\Users\caram\AppData\Local\Temp\pedido_TEST-POS58.txt
+2025-04-16 13:20:28,846 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 1, 'tentativas_conexao': 3, 'tempo_espera_entre_tentativas': 2, 'baudrates': [9600, 115200, 57600, 38400, 19200, 4800], 'cortar_papel': True, 'metodos_impressao': ['serial', 'notepad', 'html'], 'largura_papel': 32, 'tipo_impressora': '58mm', 'avanco_final': 4, 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'codificacao': 'cp437', 'impressoras_ignoradas': ['EPSON L375', 'L375 Series', 'EPSON L375 Series', 'L375 Series(Rede)', 'EPSON141686 (L375 Series)'], 'impressora_preferida': 'POS58 Printer', 'usar_impressora_windows': True}
+2025-04-16 13:20:28,848 - print_process - INFO - Impressoras disponíveis: ['Microsoft Print to PDF', 'L375 Series(Rede)', 'EPSON141686 (L375 Series)', 'ALPDF', 'POS58 Printer']
+2025-04-16 13:20:28,848 - print_process - INFO - Imprimindo com a impressora 'POS58 Printer'
+2025-04-16 13:20:28,848 - print_process - INFO - Executando comando: print /d:"POS58 Printer" "C:\Users\caram\AppData\Local\Temp\pedido_TEST-POS58.txt"
+2025-04-16 13:20:28,884 - print_process - INFO - Arquivo enviado para impressão com 'POS58 Printer': C:\Users\caram\AppData\Local\Temp\pedido_TEST-POS58.txt
+2025-04-16 13:21:10,421 - print_process - INFO - ==================================================
+2025-04-16 13:21:10,421 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 13:21:10
+2025-04-16 13:21:10,421 - print_process - INFO - Argumentos: ['print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\pedido_teste.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\resultado_teste.json']
+2025-04-16 13:21:10,421 - print_process - INFO - Processando impressão: pedido=C:\Users\caram\AppData\Local\Temp\pedido_teste.json, resultado=C:\Users\caram\AppData\Local\Temp\resultado_teste.json
+2025-04-16 13:21:10,422 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 1, 'tentativas_conexao': 3, 'tempo_espera_entre_tentativas': 2, 'baudrates': [9600, 115200, 57600, 38400, 19200, 4800], 'cortar_papel': True, 'metodos_impressao': ['serial', 'notepad', 'html'], 'largura_papel': 32, 'tipo_impressora': '58mm', 'avanco_final': 4, 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'codificacao': 'cp437', 'impressoras_ignoradas': ['EPSON L375', 'L375 Series', 'EPSON L375 Series', 'L375 Series(Rede)', 'EPSON141686 (L375 Series)'], 'impressora_preferida': 'POS58 Printer', 'usar_impressora_windows': True}
+2025-04-16 13:21:10,423 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 1, 'tentativas_conexao': 3, 'tempo_espera_entre_tentativas': 2, 'baudrates': [9600, 115200, 57600, 38400, 19200, 4800], 'cortar_papel': True, 'metodos_impressao': ['serial', 'notepad', 'html'], 'largura_papel': 32, 'tipo_impressora': '58mm', 'avanco_final': 4, 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'codificacao': 'cp437', 'impressoras_ignoradas': ['EPSON L375', 'L375 Series', 'EPSON L375 Series', 'L375 Series(Rede)', 'EPSON141686 (L375 Series)'], 'impressora_preferida': 'POS58 Printer', 'usar_impressora_windows': True}
+2025-04-16 13:21:10,426 - print_process - INFO - Arquivo de texto criado com sucesso: C:\Users\caram\AppData\Local\Temp\pedido_35791.txt
+2025-04-16 13:21:10,428 - print_process - INFO - Usando impressora Windows configurada. Arquivo: C:\Users\caram\AppData\Local\Temp\pedido_35791.txt
+2025-04-16 13:21:10,436 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 1, 'tentativas_conexao': 3, 'tempo_espera_entre_tentativas': 2, 'baudrates': [9600, 115200, 57600, 38400, 19200, 4800], 'cortar_papel': True, 'metodos_impressao': ['serial', 'notepad', 'html'], 'largura_papel': 32, 'tipo_impressora': '58mm', 'avanco_final': 4, 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'codificacao': 'cp437', 'impressoras_ignoradas': ['EPSON L375', 'L375 Series', 'EPSON L375 Series', 'L375 Series(Rede)', 'EPSON141686 (L375 Series)'], 'impressora_preferida': 'POS58 Printer', 'usar_impressora_windows': True}
+2025-04-16 13:21:10,438 - print_process - INFO - Impressoras disponíveis: ['Microsoft Print to PDF', 'L375 Series(Rede)', 'EPSON141686 (L375 Series)', 'ALPDF', 'POS58 Printer']
+2025-04-16 13:21:10,438 - print_process - INFO - Imprimindo com a impressora 'POS58 Printer'
+2025-04-16 13:21:10,438 - print_process - INFO - Executando comando: print /d:"POS58 Printer" "C:\Users\caram\AppData\Local\Temp\pedido_35791.txt"
+2025-04-16 13:21:10,463 - print_process - INFO - Arquivo enviado para impressão com 'POS58 Printer': C:\Users\caram\AppData\Local\Temp\pedido_35791.txt
+2025-04-16 13:21:10,463 - print_process - INFO - Impressão via impressora Windows bem sucedida
+2025-04-16 13:34:38,429 - print_process - INFO - ==================================================
+2025-04-16 13:34:38,430 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 13:34:38
+2025-04-16 13:34:38,430 - print_process - INFO - Argumentos: ['print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\pedido_teste.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\resultado_teste.json']
+2025-04-16 13:34:38,430 - print_process - INFO - Processando impressão: pedido=C:\Users\caram\AppData\Local\Temp\pedido_teste.json, resultado=C:\Users\caram\AppData\Local\Temp\resultado_teste.json
+2025-04-16 13:34:38,432 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 3, 'largura_papel': 32, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'avanco_final': 4, 'cortar_papel': True, 'codificacao': 'cp437', 'tipo_impressora': '58mm', 'baudrates_alternativos': [9600, 19200, 38400, 57600, 115200], 'max_tentativas': 3, 'metodos_impressao': ['serial'], 'impressoras_ignoradas': ['Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'OneNote', 'EPSON L375'], 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'usar_impressora_windows': True}
+2025-04-16 13:34:38,432 - print_process - INFO - Tentando método: serial
+2025-04-16 13:34:38,432 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 9600
+2025-04-16 13:34:38,432 - print_process - ERROR - Erro ao imprimir via serial: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 13:34:38,436 - print_process - ERROR - Traceback (most recent call last):
+  File "C:\Users\caram\OneDrive\Área de Trabalho\AcriPrint Programa\Acriprint V3\print_process.py", line 994, in processa_impressao
+    ser = serial.Serial(porta_manual, baudrate, timeout=timeout)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 33, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialutil.py", line 244, in __init__
+    self.open()
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+
+2025-04-16 13:34:38,437 - print_process - ERROR - Todos os métodos de impressão falharam
+2025-04-16 13:35:44,430 - print_process - INFO - ==================================================
+2025-04-16 13:35:44,431 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 13:35:44
+2025-04-16 13:35:44,431 - print_process - INFO - Argumentos: ['print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\pedido_teste.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\resultado_teste.json']
+2025-04-16 13:35:44,431 - print_process - INFO - Processando impressão: pedido=C:\Users\caram\AppData\Local\Temp\pedido_teste.json, resultado=C:\Users\caram\AppData\Local\Temp\resultado_teste.json
+2025-04-16 13:35:44,432 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 3, 'largura_papel': 32, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'avanco_final': 4, 'cortar_papel': True, 'codificacao': 'cp437', 'tipo_impressora': '58mm', 'baudrates_alternativos': [9600, 19200, 38400, 57600, 115200], 'max_tentativas': 3, 'metodos_impressao': ['serial', 'notepad', 'html'], 'impressoras_ignoradas': ['Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'OneNote', 'EPSON L375'], 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'usar_impressora_windows': True}
+2025-04-16 13:35:44,432 - print_process - INFO - Tentando método: serial
+2025-04-16 13:35:44,432 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 9600
+2025-04-16 13:35:44,432 - print_process - ERROR - Erro ao imprimir via serial: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 13:35:44,436 - print_process - ERROR - Traceback (most recent call last):
+  File "C:\Users\caram\OneDrive\Área de Trabalho\AcriPrint Programa\Acriprint V3\print_process.py", line 942, in processa_impressao
+    ser = serial.Serial(porta_manual, baudrate, timeout=timeout)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 33, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialutil.py", line 244, in __init__
+    self.open()
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+
+2025-04-16 13:35:44,436 - print_process - INFO - Tentando método: notepad
+2025-04-16 13:35:44,437 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 3, 'largura_papel': 32, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'avanco_final': 4, 'cortar_papel': True, 'codificacao': 'cp437', 'tipo_impressora': '58mm', 'baudrates_alternativos': [9600, 19200, 38400, 57600, 115200], 'max_tentativas': 3, 'metodos_impressao': ['serial', 'notepad', 'html'], 'impressoras_ignoradas': ['Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'OneNote', 'EPSON L375'], 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'usar_impressora_windows': True}
+2025-04-16 13:35:44,438 - print_process - INFO - Arquivo de texto criado com sucesso: C:\Users\caram\AppData\Local\Temp\pedido_35791.txt
+2025-04-16 13:35:44,438 - print_process - INFO - Usando método de impressão Notepad. Arquivo: C:\Users\caram\AppData\Local\Temp\pedido_35791.txt
+2025-04-16 13:35:44,438 - print_process - INFO - Executando comando: "C:\WINDOWS\System32\notepad.exe" /p "C:\Users\caram\AppData\Local\Temp\pedido_35791.txt"
+2025-04-16 13:35:45,370 - print_process - INFO - Impressão via Notepad concluída com sucesso!
+2025-04-16 13:43:18,949 - print_process - INFO - ==================================================
+2025-04-16 13:43:18,949 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 13:43:18
+2025-04-16 13:43:18,949 - print_process - INFO - Argumentos: ['print_process.py']
+2025-04-16 13:43:18,950 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 3, 'largura_papel': 32, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'avanco_final': 4, 'cortar_papel': True, 'codificacao': 'cp850', 'tipo_impressora': '58mm', 'baudrates_alternativos': [9600, 19200, 38400, 57600, 115200], 'max_tentativas': 3, 'metodos_impressao': ['serial', 'notepad', 'html'], 'impressoras_ignoradas': ['Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'OneNote', 'EPSON L375'], 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'usar_impressora_windows': True}
+2025-04-16 13:50:46,755 - print_process - INFO - ==================================================
+2025-04-16 13:50:46,755 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 13:50:46
+2025-04-16 13:50:46,755 - print_process - INFO - Argumentos: ['c:\\Users\\caram\\OneDrive\\Área de Trabalho\\AcriPrint Programa\\Acriprint V3\\print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmplx65sphr.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmp5rfj0dab.json']
+2025-04-16 13:50:46,755 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 3, 'largura_papel': 32, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'avanco_final': 4, 'cortar_papel': True, 'codificacao': 'cp850', 'tipo_impressora': '58mm', 'baudrates_alternativos': [9600, 19200, 38400, 57600, 115200], 'max_tentativas': 3, 'metodos_impressao': ['serial', 'notepad', 'html'], 'impressoras_ignoradas': ['Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'OneNote', 'EPSON L375'], 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'usar_impressora_windows': True}
+2025-04-16 13:50:46,756 - print_process - INFO - Processando impressão: pedido=C:\Users\caram\AppData\Local\Temp\tmplx65sphr.json, resultado=C:\Users\caram\AppData\Local\Temp\tmp5rfj0dab.json
+2025-04-16 13:50:46,762 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 3, 'largura_papel': 32, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'avanco_final': 4, 'cortar_papel': True, 'codificacao': 'cp850', 'tipo_impressora': '58mm', 'baudrates_alternativos': [9600, 19200, 38400, 57600, 115200], 'max_tentativas': 3, 'metodos_impressao': ['serial', 'notepad', 'html'], 'impressoras_ignoradas': ['Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'OneNote', 'EPSON L375'], 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'usar_impressora_windows': True}
+2025-04-16 13:50:46,763 - print_process - INFO - Tentando método: serial
+2025-04-16 13:50:46,763 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 9600
+2025-04-16 13:50:46,763 - print_process - ERROR - Erro ao imprimir via serial: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 13:50:46,768 - print_process - ERROR - Traceback (most recent call last):
+  File "c:\Users\caram\OneDrive\Área de Trabalho\AcriPrint Programa\Acriprint V3\print_process.py", line 940, in processa_impressao
+    ser = serial.Serial(porta_manual, baudrate, timeout=timeout)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 33, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialutil.py", line 244, in __init__
+    self.open()
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+
+2025-04-16 13:50:46,768 - print_process - INFO - Tentando método: notepad
+2025-04-16 13:50:46,769 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 3, 'largura_papel': 32, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'avanco_final': 4, 'cortar_papel': True, 'codificacao': 'cp850', 'tipo_impressora': '58mm', 'baudrates_alternativos': [9600, 19200, 38400, 57600, 115200], 'max_tentativas': 3, 'metodos_impressao': ['serial', 'notepad', 'html'], 'impressoras_ignoradas': ['Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'OneNote', 'EPSON L375'], 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'usar_impressora_windows': True}
+2025-04-16 13:50:46,769 - print_process - INFO - Arquivo de texto criado com sucesso: C:\Users\caram\AppData\Local\Temp\pedido_115167.txt
+2025-04-16 13:50:46,769 - print_process - INFO - Usando método de impressão Notepad. Arquivo: C:\Users\caram\AppData\Local\Temp\pedido_115167.txt
+2025-04-16 13:50:46,769 - print_process - INFO - Executando comando: "C:\WINDOWS\System32\notepad.exe" /p "C:\Users\caram\AppData\Local\Temp\pedido_115167.txt"
+2025-04-16 13:50:47,400 - print_process - INFO - Impressão via Notepad concluída com sucesso!
+2025-04-16 13:52:13,398 - print_process - INFO - ==================================================
+2025-04-16 13:52:13,398 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 13:52:13
+2025-04-16 13:52:13,398 - print_process - INFO - Argumentos: ['c:\\Users\\caram\\OneDrive\\Área de Trabalho\\AcriPrint Programa\\Acriprint V3\\print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmpdns45byk.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmpgqjz6nod.json']
+2025-04-16 13:52:13,399 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 3, 'largura_papel': 32, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'avanco_final': 4, 'cortar_papel': True, 'codificacao': 'cp850', 'tipo_impressora': '58mm', 'baudrates_alternativos': [9600, 19200, 38400, 57600, 115200], 'max_tentativas': 3, 'metodos_impressao': ['serial', 'notepad', 'html'], 'impressoras_ignoradas': ['Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'OneNote', 'EPSON L375'], 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'usar_impressora_windows': True}
+2025-04-16 13:52:13,399 - print_process - INFO - Processando impressão: pedido=C:\Users\caram\AppData\Local\Temp\tmpdns45byk.json, resultado=C:\Users\caram\AppData\Local\Temp\tmpgqjz6nod.json
+2025-04-16 13:52:13,406 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 3, 'largura_papel': 32, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'avanco_final': 4, 'cortar_papel': True, 'codificacao': 'cp850', 'tipo_impressora': '58mm', 'baudrates_alternativos': [9600, 19200, 38400, 57600, 115200], 'max_tentativas': 3, 'metodos_impressao': ['serial', 'notepad', 'html'], 'impressoras_ignoradas': ['Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'OneNote', 'EPSON L375'], 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'usar_impressora_windows': True}
+2025-04-16 13:52:13,406 - print_process - INFO - Tentando método: serial
+2025-04-16 13:52:13,406 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 9600
+2025-04-16 13:52:13,406 - print_process - ERROR - Erro ao imprimir via serial: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 13:52:13,410 - print_process - ERROR - Traceback (most recent call last):
+  File "c:\Users\caram\OneDrive\Área de Trabalho\AcriPrint Programa\Acriprint V3\print_process.py", line 940, in processa_impressao
+    ser = serial.Serial(porta_manual, baudrate, timeout=timeout)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 33, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialutil.py", line 244, in __init__
+    self.open()
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+
+2025-04-16 13:52:13,410 - print_process - INFO - Tentando método: notepad
+2025-04-16 13:52:13,411 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 3, 'largura_papel': 32, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'avanco_final': 4, 'cortar_papel': True, 'codificacao': 'cp850', 'tipo_impressora': '58mm', 'baudrates_alternativos': [9600, 19200, 38400, 57600, 115200], 'max_tentativas': 3, 'metodos_impressao': ['serial', 'notepad', 'html'], 'impressoras_ignoradas': ['Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'OneNote', 'EPSON L375'], 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'usar_impressora_windows': True}
+2025-04-16 13:52:13,411 - print_process - INFO - Arquivo de texto criado com sucesso: C:\Users\caram\AppData\Local\Temp\pedido_temp.txt
+2025-04-16 13:52:13,411 - print_process - INFO - Usando método de impressão Notepad. Arquivo: C:\Users\caram\AppData\Local\Temp\pedido_temp.txt
+2025-04-16 13:52:13,411 - print_process - INFO - Executando comando: "C:\WINDOWS\System32\notepad.exe" /p "C:\Users\caram\AppData\Local\Temp\pedido_temp.txt"
+2025-04-16 13:52:14,080 - print_process - INFO - Impressão via Notepad concluída com sucesso!
+2025-04-16 14:13:20,666 - print_process - INFO - ==================================================
+2025-04-16 14:13:20,667 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 14:13:20
+2025-04-16 14:13:20,667 - print_process - INFO - Argumentos: ['c:\\Users\\caram\\OneDrive\\Área de Trabalho\\AcriPrint Programa\\Acriprint V3\\print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmp7934dbw0.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmp4a9dttnz.json']
+2025-04-16 14:13:20,667 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 3, 'largura_papel': 32, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'avanco_final': 4, 'cortar_papel': True, 'codificacao': 'cp850', 'tipo_impressora': '58mm', 'baudrates_alternativos': [9600, 19200, 38400, 57600, 115200], 'max_tentativas': 3, 'metodos_impressao': ['serial', 'notepad', 'html'], 'impressoras_ignoradas': ['Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'OneNote', 'EPSON L375'], 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'usar_impressora_windows': True}
+2025-04-16 14:13:20,667 - print_process - INFO - Processando impressão: pedido=C:\Users\caram\AppData\Local\Temp\tmp7934dbw0.json, resultado=C:\Users\caram\AppData\Local\Temp\tmp4a9dttnz.json
+2025-04-16 14:13:20,674 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 3, 'largura_papel': 32, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'avanco_final': 4, 'cortar_papel': True, 'codificacao': 'cp850', 'tipo_impressora': '58mm', 'baudrates_alternativos': [9600, 19200, 38400, 57600, 115200], 'max_tentativas': 3, 'metodos_impressao': ['serial', 'notepad', 'html'], 'impressoras_ignoradas': ['Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'OneNote', 'EPSON L375'], 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'usar_impressora_windows': True}
+2025-04-16 14:13:20,674 - print_process - INFO - Tentando método: serial
+2025-04-16 14:13:20,674 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 9600
+2025-04-16 14:13:20,674 - print_process - ERROR - Erro ao imprimir via serial: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 14:13:20,679 - print_process - ERROR - Traceback (most recent call last):
+  File "c:\Users\caram\OneDrive\Área de Trabalho\AcriPrint Programa\Acriprint V3\print_process.py", line 940, in processa_impressao
+    ser = serial.Serial(porta_manual, baudrate, timeout=timeout)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 33, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialutil.py", line 244, in __init__
+    self.open()
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+
+2025-04-16 14:13:20,680 - print_process - INFO - Tentando método: notepad
+2025-04-16 14:13:20,681 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 3, 'largura_papel': 32, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'avanco_final': 4, 'cortar_papel': True, 'codificacao': 'cp850', 'tipo_impressora': '58mm', 'baudrates_alternativos': [9600, 19200, 38400, 57600, 115200], 'max_tentativas': 3, 'metodos_impressao': ['serial', 'notepad', 'html'], 'impressoras_ignoradas': ['Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'OneNote', 'EPSON L375'], 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'usar_impressora_windows': True}
+2025-04-16 14:13:20,681 - print_process - INFO - Arquivo de texto criado com sucesso: C:\Users\caram\AppData\Local\Temp\pedido_115169.txt
+2025-04-16 14:13:20,681 - print_process - INFO - Usando método de impressão Notepad. Arquivo: C:\Users\caram\AppData\Local\Temp\pedido_115169.txt
+2025-04-16 14:13:20,681 - print_process - INFO - Executando comando: "C:\WINDOWS\System32\notepad.exe" /p "C:\Users\caram\AppData\Local\Temp\pedido_115169.txt"
+2025-04-16 14:13:21,398 - print_process - INFO - Impressão via Notepad concluída com sucesso!
+2025-04-16 14:19:45,344 - print_process - INFO - ==================================================
+2025-04-16 14:19:45,344 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 14:19:45
+2025-04-16 14:19:45,344 - print_process - INFO - Argumentos: ['c:\\Users\\caram\\OneDrive\\Área de Trabalho\\AcriPrint Programa\\Acriprint V3\\print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmp6he9twn7.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmpt_chpwh7.json']
+2025-04-16 14:19:45,345 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 3, 'largura_papel': 32, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'avanco_final': 4, 'cortar_papel': True, 'codificacao': 'cp850', 'tipo_impressora': '58mm', 'baudrates_alternativos': [9600, 19200, 38400, 57600, 115200], 'max_tentativas': 3, 'metodos_impressao': ['serial', 'notepad', 'html'], 'impressoras_ignoradas': ['Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'OneNote', 'EPSON L375'], 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'usar_impressora_windows': True}
+2025-04-16 14:20:10,391 - print_process - INFO - ==================================================
+2025-04-16 14:20:10,392 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 14:20:10
+2025-04-16 14:20:10,392 - print_process - INFO - Argumentos: ['c:\\Users\\caram\\OneDrive\\Área de Trabalho\\AcriPrint Programa\\Acriprint V3\\print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmpwwgo5z4t.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmpb3vjkpnc.json']
+2025-04-16 14:20:10,392 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 3, 'largura_papel': 32, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'avanco_final': 4, 'cortar_papel': True, 'codificacao': 'cp850', 'tipo_impressora': '58mm', 'baudrates_alternativos': [9600, 19200, 38400, 57600, 115200], 'max_tentativas': 3, 'metodos_impressao': ['serial', 'notepad', 'html'], 'impressoras_ignoradas': ['Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'OneNote', 'EPSON L375'], 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'usar_impressora_windows': True}
+2025-04-16 14:41:22,948 - print_process - INFO - ==================================================
+2025-04-16 14:41:22,948 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 14:41:22
+2025-04-16 14:41:22,948 - print_process - INFO - Argumentos: ['c:\\Users\\caram\\OneDrive\\Área de Trabalho\\AcriPrint Programa\\Acriprint V3\\print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmp1_7ya4kx.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmppytf68so.json']
+2025-04-16 14:41:22,948 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 3, 'largura_papel': 32, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'avanco_final': 4, 'cortar_papel': True, 'codificacao': 'cp850', 'tipo_impressora': '58mm', 'baudrates_alternativos': [9600, 19200, 38400, 57600, 115200], 'max_tentativas': 3, 'metodos_impressao': ['serial', 'notepad', 'html'], 'impressoras_ignoradas': ['Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'OneNote', 'EPSON L375'], 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'usar_impressora_windows': True}
+2025-04-16 14:41:28,224 - print_process - INFO - ==================================================
+2025-04-16 14:41:28,224 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 14:41:28
+2025-04-16 14:41:28,224 - print_process - INFO - Argumentos: ['c:\\Users\\caram\\OneDrive\\Área de Trabalho\\AcriPrint Programa\\Acriprint V3\\print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmpyi2h_roh.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmpivgk14nm.json']
+2025-04-16 14:41:28,225 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 3, 'largura_papel': 32, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'avanco_final': 4, 'cortar_papel': True, 'codificacao': 'cp850', 'tipo_impressora': '58mm', 'baudrates_alternativos': [9600, 19200, 38400, 57600, 115200], 'max_tentativas': 3, 'metodos_impressao': ['serial', 'notepad', 'html'], 'impressoras_ignoradas': ['Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'OneNote', 'EPSON L375'], 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'usar_impressora_windows': True}
+2025-04-16 14:41:28,225 - print_process - INFO - Processando impressão: pedido=C:\Users\caram\AppData\Local\Temp\tmpyi2h_roh.json, resultado=C:\Users\caram\AppData\Local\Temp\tmpivgk14nm.json
+2025-04-16 14:41:28,232 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 3, 'largura_papel': 32, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'avanco_final': 4, 'cortar_papel': True, 'codificacao': 'cp850', 'tipo_impressora': '58mm', 'baudrates_alternativos': [9600, 19200, 38400, 57600, 115200], 'max_tentativas': 3, 'metodos_impressao': ['serial', 'notepad', 'html'], 'impressoras_ignoradas': ['Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'OneNote', 'EPSON L375'], 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'usar_impressora_windows': True}
+2025-04-16 14:41:28,232 - print_process - INFO - Tentando método: serial
+2025-04-16 14:41:28,233 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 9600
+2025-04-16 14:41:28,233 - print_process - ERROR - Erro ao imprimir via serial: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 14:41:28,237 - print_process - ERROR - Traceback (most recent call last):
+  File "c:\Users\caram\OneDrive\Área de Trabalho\AcriPrint Programa\Acriprint V3\print_process.py", line 940, in processa_impressao
+    ser = serial.Serial(porta_manual, baudrate, timeout=timeout)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 33, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialutil.py", line 244, in __init__
+    self.open()
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+
+2025-04-16 14:41:28,237 - print_process - INFO - Tentando método: notepad
+2025-04-16 14:41:28,238 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 3, 'largura_papel': 32, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'avanco_final': 4, 'cortar_papel': True, 'codificacao': 'cp850', 'tipo_impressora': '58mm', 'baudrates_alternativos': [9600, 19200, 38400, 57600, 115200], 'max_tentativas': 3, 'metodos_impressao': ['serial', 'notepad', 'html'], 'impressoras_ignoradas': ['Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'OneNote', 'EPSON L375'], 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'usar_impressora_windows': True}
+2025-04-16 14:41:28,238 - print_process - INFO - Arquivo de texto criado com sucesso: C:\Users\caram\AppData\Local\Temp\pedido_115171.txt
+2025-04-16 14:41:28,238 - print_process - INFO - Usando método de impressão Notepad. Arquivo: C:\Users\caram\AppData\Local\Temp\pedido_115171.txt
+2025-04-16 14:41:28,238 - print_process - INFO - Executando comando: "C:\WINDOWS\System32\notepad.exe" /p "C:\Users\caram\AppData\Local\Temp\pedido_115171.txt"
+2025-04-16 14:41:28,872 - print_process - INFO - Impressão via Notepad concluída com sucesso!
+2025-04-16 14:43:27,597 - print_process - INFO - ==================================================
+2025-04-16 14:43:27,597 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 14:43:27
+2025-04-16 14:43:27,597 - print_process - INFO - Argumentos: ['c:\\Users\\caram\\OneDrive\\Área de Trabalho\\AcriPrint Programa\\Acriprint V3\\print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmphfvy1la1.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmp53t6t961.json']
+2025-04-16 14:43:27,598 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 3, 'largura_papel': 32, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'avanco_final': 4, 'cortar_papel': True, 'codificacao': 'cp850', 'tipo_impressora': '58mm', 'baudrates_alternativos': [9600, 19200, 38400, 57600, 115200], 'max_tentativas': 3, 'metodos_impressao': ['serial', 'notepad', 'html'], 'impressoras_ignoradas': ['Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'OneNote', 'EPSON L375'], 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'usar_impressora_windows': True}
+2025-04-16 14:43:27,598 - print_process - INFO - Processando impressão: pedido=C:\Users\caram\AppData\Local\Temp\tmphfvy1la1.json, resultado=C:\Users\caram\AppData\Local\Temp\tmp53t6t961.json
+2025-04-16 14:43:27,599 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 3, 'largura_papel': 32, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'avanco_final': 4, 'cortar_papel': True, 'codificacao': 'cp850', 'tipo_impressora': '58mm', 'baudrates_alternativos': [9600, 19200, 38400, 57600, 115200], 'max_tentativas': 3, 'metodos_impressao': ['serial', 'notepad', 'html'], 'impressoras_ignoradas': ['Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'OneNote', 'EPSON L375'], 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'usar_impressora_windows': True}
+2025-04-16 14:43:27,599 - print_process - INFO - Tentando método: serial
+2025-04-16 14:43:27,599 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 9600
+2025-04-16 14:43:27,599 - print_process - ERROR - Erro ao imprimir via serial: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 14:43:27,603 - print_process - ERROR - Traceback (most recent call last):
+  File "c:\Users\caram\OneDrive\Área de Trabalho\AcriPrint Programa\Acriprint V3\print_process.py", line 940, in processa_impressao
+    ser = serial.Serial(porta_manual, baudrate, timeout=timeout)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 33, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialutil.py", line 244, in __init__
+    self.open()
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+
+2025-04-16 14:43:27,603 - print_process - INFO - Tentando método: notepad
+2025-04-16 14:43:27,604 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 3, 'largura_papel': 32, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'avanco_final': 4, 'cortar_papel': True, 'codificacao': 'cp850', 'tipo_impressora': '58mm', 'baudrates_alternativos': [9600, 19200, 38400, 57600, 115200], 'max_tentativas': 3, 'metodos_impressao': ['serial', 'notepad', 'html'], 'impressoras_ignoradas': ['Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'OneNote', 'EPSON L375'], 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'usar_impressora_windows': True}
+2025-04-16 14:43:27,604 - print_process - INFO - Arquivo de texto criado com sucesso: C:\Users\caram\AppData\Local\Temp\pedido_115171.txt
+2025-04-16 14:43:27,604 - print_process - INFO - Usando método de impressão Notepad. Arquivo: C:\Users\caram\AppData\Local\Temp\pedido_115171.txt
+2025-04-16 14:43:27,605 - print_process - INFO - Executando comando: "C:\WINDOWS\System32\notepad.exe" /p "C:\Users\caram\AppData\Local\Temp\pedido_115171.txt"
+2025-04-16 14:43:28,236 - print_process - INFO - Impressão via Notepad concluída com sucesso!
+2025-04-16 14:50:41,080 - print_process - INFO - ==================================================
+2025-04-16 14:50:41,080 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 14:50:41
+2025-04-16 14:50:41,081 - print_process - INFO - Argumentos: ['c:\\Users\\caram\\OneDrive\\Área de Trabalho\\AcriPrint Programa\\Acriprint V3\\print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmp6g8g6b9c.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmptabo19a2.json']
+2025-04-16 14:50:41,081 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 3, 'largura_papel': 32, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'avanco_final': 4, 'cortar_papel': True, 'codificacao': 'cp850', 'tipo_impressora': '58mm', 'baudrates_alternativos': [9600, 19200, 38400, 57600, 115200], 'max_tentativas': 3, 'metodos_impressao': ['serial', 'notepad', 'html'], 'impressoras_ignoradas': ['Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'OneNote', 'EPSON L375'], 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'usar_impressora_windows': True}
+2025-04-16 14:50:41,081 - print_process - INFO - Processando impressão: pedido=C:\Users\caram\AppData\Local\Temp\tmp6g8g6b9c.json, resultado=C:\Users\caram\AppData\Local\Temp\tmptabo19a2.json
+2025-04-16 14:50:41,082 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 3, 'largura_papel': 32, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'avanco_final': 4, 'cortar_papel': True, 'codificacao': 'cp850', 'tipo_impressora': '58mm', 'baudrates_alternativos': [9600, 19200, 38400, 57600, 115200], 'max_tentativas': 3, 'metodos_impressao': ['serial', 'notepad', 'html'], 'impressoras_ignoradas': ['Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'OneNote', 'EPSON L375'], 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'usar_impressora_windows': True}
+2025-04-16 14:50:41,082 - print_process - INFO - Tentando método: serial
+2025-04-16 14:50:41,082 - print_process - INFO - Tentando conectar à porta COM3 com baudrate 9600
+2025-04-16 14:50:41,082 - print_process - ERROR - Erro ao imprimir via serial: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 14:50:41,085 - print_process - ERROR - Traceback (most recent call last):
+  File "c:\Users\caram\OneDrive\Área de Trabalho\AcriPrint Programa\Acriprint V3\print_process.py", line 657, in processa_impressao
+    ser = serial.Serial(porta_manual, baudrate, timeout=timeout)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 33, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialutil.py", line 244, in __init__
+    self.open()
+  File "C:\Users\caram\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+
+2025-04-16 14:50:41,085 - print_process - INFO - Tentando método: notepad
+2025-04-16 14:50:41,086 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 3, 'largura_papel': 32, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'avanco_final': 4, 'cortar_papel': True, 'codificacao': 'cp850', 'tipo_impressora': '58mm', 'baudrates_alternativos': [9600, 19200, 38400, 57600, 115200], 'max_tentativas': 3, 'metodos_impressao': ['serial', 'notepad', 'html'], 'impressoras_ignoradas': ['Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'OneNote', 'EPSON L375'], 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'usar_impressora_windows': True}
+2025-04-16 14:50:41,086 - print_process - INFO - Arquivo de texto criado com sucesso: C:\Users\caram\AppData\Local\Temp\pedido_115171.txt
+2025-04-16 14:50:41,086 - print_process - INFO - Usando método de impressão Notepad. Arquivo: C:\Users\caram\AppData\Local\Temp\pedido_115171.txt
+2025-04-16 14:50:41,086 - print_process - INFO - Executando comando: "C:\WINDOWS\System32\notepad.exe" /p "C:\Users\caram\AppData\Local\Temp\pedido_115171.txt"
+2025-04-16 14:50:41,740 - print_process - INFO - Impressão via Notepad concluída com sucesso!
+2025-04-16 14:53:14,512 - print_process - INFO - ==================================================
+2025-04-16 14:53:14,514 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 14:53:14
+2025-04-16 14:53:14,514 - print_process - INFO - Argumentos: ['c:\\Users\\caram\\OneDrive\\Área de Trabalho\\AcriPrint Programa\\Acriprint V3\\print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmpewy462dr.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmphymoqzd6.json']
+2025-04-16 14:53:14,514 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 3, 'largura_papel': 32, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'avanco_final': 4, 'cortar_papel': True, 'codificacao': 'cp850', 'tipo_impressora': '58mm', 'baudrates_alternativos': [9600, 19200, 38400, 57600, 115200], 'max_tentativas': 3, 'metodos_impressao': ['serial', 'notepad', 'html'], 'impressoras_ignoradas': ['Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'OneNote', 'EPSON L375'], 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'usar_impressora_windows': True}
+2025-04-16 14:53:14,515 - impressora - INFO - Processando impressão do pedido: 115171
+2025-04-16 14:53:14,516 - impressora - ERROR - Erro ao conectar à impressora: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 14:53:14,516 - impressora - ERROR - Falha na impressão Serial
+2025-04-16 14:53:14,516 - impressora - INFO - Resultado registrado em C:\Users\caram\AppData\Local\Temp\tmphymoqzd6.json: FALHA
+2025-04-16 14:53:28,337 - print_process - INFO - ==================================================
+2025-04-16 14:53:28,338 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 14:53:28
+2025-04-16 14:53:28,338 - print_process - INFO - Argumentos: ['c:\\Users\\caram\\OneDrive\\Área de Trabalho\\AcriPrint Programa\\Acriprint V3\\print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmpfl3u630o.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmpbjo5nl3_.json']
+2025-04-16 14:53:28,338 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 3, 'largura_papel': 32, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'avanco_final': 4, 'cortar_papel': True, 'codificacao': 'cp850', 'tipo_impressora': '58mm', 'baudrates_alternativos': [9600, 19200, 38400, 57600, 115200], 'max_tentativas': 3, 'metodos_impressao': ['serial', 'notepad', 'html'], 'impressoras_ignoradas': ['Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'OneNote', 'EPSON L375'], 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'usar_impressora_windows': True}
+2025-04-16 14:53:28,345 - impressora - INFO - Processando impressão do pedido: sem número
+2025-04-16 14:53:28,346 - impressora - ERROR - Erro ao conectar à impressora: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5)
+2025-04-16 14:53:28,346 - impressora - ERROR - Falha na impressão Serial
+2025-04-16 14:53:28,346 - impressora - INFO - Resultado registrado em C:\Users\caram\AppData\Local\Temp\tmpbjo5nl3_.json: FALHA
+2025-04-16 14:57:42,566 - print_process - INFO - ==================================================
+2025-04-16 14:57:42,566 - print_process - INFO - Iniciando processo de impressão em 16/04/2025 14:57:42
+2025-04-16 14:57:42,566 - print_process - INFO - Argumentos: ['c:\\Users\\caram\\OneDrive\\Área de Trabalho\\AcriPrint Programa\\Acriprint V3\\print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmp7wx3d8es.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmpiux742_0.json']
+2025-04-16 14:57:42,567 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': 'COM3', 'baudrate': 9600, 'timeout': 3, 'largura_papel': 22, 'caracteres_por_linha': 22, 'tamanho_qrcode': 5, 'avanco_final': 4, 'cortar_papel': True, 'codificacao': 'cp850', 'tipo_impressora': '58mm', 'baudrates_alternativos': [9600, 19200, 38400, 57600, 115200], 'max_tentativas': 3, 'metodos_impressao': ['serial'], 'impressoras_ignoradas': ['Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'OneNote', 'EPSON L375'], 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'usar_impressora_windows': False}
+2025-04-17 08:35:14,273 - print_process - INFO - ==================================================
+2025-04-17 08:35:14,273 - print_process - INFO - Iniciando processo de impressão em 17/04/2025 08:35:14
+2025-04-17 08:35:14,273 - print_process - INFO - Argumentos: ['c:\\Users\\caram\\OneDrive\\Área de Trabalho\\AcriPrint Programa\\Acriprint V3\\print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmphoiw1jxx.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmpyz8glp7t.json']
+2025-04-17 08:35:14,274 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': '', 'baudrate': 9600, 'timeout': 5, 'largura_papel': 22, 'caracteres_por_linha': 22, 'tamanho_qrcode': 5, 'avanco_final': 4, 'cortar_papel': True, 'codificacao': 'cp850', 'tipo_impressora': '58mm', 'baudrates_alternativos': [9600, 19200, 38400, 57600, 115200], 'max_tentativas': 3, 'metodos_impressao': ['win32', 'serial', 'notepad', 'html'], 'impressora_windows': 'POS58 Printer', 'impressoras_ignoradas': ['Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'OneNote', 'EPSON L375'], 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'usar_impressora_windows': True}
+2025-04-17 08:35:14,281 - impressora - INFO - Processando impressão do pedido: 115232
+2025-04-17 08:35:14,282 - impressora - INFO - Tentando impressão via Windows
+2025-04-17 08:35:14,282 - impressora - INFO - Preparando impressão via Windows...
+2025-04-17 08:35:14,282 - impressora - INFO - Usando impressora configurada: POS58 Printer
+2025-04-17 08:35:14,285 - impressora - INFO - Enviando arquivo para impressão: C:\Users\caram\AppData\Local\Temp\acriprint_win_20250417_083514.txt
+2025-04-17 08:35:14,372 - impressora - INFO - Impressão Windows enviada com sucesso
+2025-04-17 08:35:14,372 - impressora - INFO - Impressão Windows bem-sucedida
+2025-04-17 08:35:14,373 - impressora - INFO - Resultado registrado em C:\Users\caram\AppData\Local\Temp\tmpyz8glp7t.json: SUCESSO
+2025-04-17 08:44:51,562 - print_process - INFO - ==================================================
+2025-04-17 08:44:51,562 - print_process - INFO - Iniciando processo de impressão em 17/04/2025 08:44:51
+2025-04-17 08:44:51,562 - print_process - INFO - Argumentos: ['c:\\Users\\caram\\OneDrive\\Área de Trabalho\\AcriPrint Programa\\Acriprint V3\\print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmpvmgrcbkk.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmp3n29nvtp.json']
+2025-04-17 08:44:51,562 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': '', 'baudrate': 9600, 'timeout': 5, 'largura_papel': 22, 'caracteres_por_linha': 22, 'tamanho_qrcode': 5, 'avanco_final': 4, 'cortar_papel': True, 'codificacao': 'cp850', 'tipo_impressora': '58mm', 'baudrates_alternativos': [9600, 19200, 38400, 57600, 115200], 'max_tentativas': 3, 'metodos_impressao': ['win32', 'serial', 'html'], 'impressora_windows': 'POS58 Printer', 'impressoras_ignoradas': ['Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'OneNote', 'EPSON L375'], 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'usar_impressora_windows': True}
+2025-04-17 08:44:51,564 - impressora - INFO - Processando impressão do pedido: 115232
+2025-04-17 08:44:51,564 - impressora - INFO - Tentando impressão via Windows
+2025-04-17 08:44:51,564 - impressora - INFO - Preparando impressão via Windows...
+2025-04-17 08:44:51,564 - impressora - INFO - Usando impressora configurada: POS58 Printer
+2025-04-17 08:44:51,566 - impressora - INFO - Enviando arquivo para impressão: C:\Users\caram\AppData\Local\Temp\acriprint_win_20250417_084451.txt
+2025-04-17 08:44:51,654 - impressora - INFO - Impressão Windows enviada com sucesso
+2025-04-17 08:44:51,654 - impressora - INFO - Impressão Windows bem-sucedida
+2025-04-17 08:44:51,654 - impressora - INFO - Resultado registrado em C:\Users\caram\AppData\Local\Temp\tmp3n29nvtp.json: SUCESSO
+2025-04-17 08:46:39,088 - print_process - INFO - ==================================================
+2025-04-17 08:46:39,088 - print_process - INFO - Iniciando processo de impressão em 17/04/2025 08:46:39
+2025-04-17 08:46:39,088 - print_process - INFO - Argumentos: ['c:\\Users\\caram\\OneDrive\\Área de Trabalho\\AcriPrint Programa\\Acriprint V3\\print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmpia1wt4zt.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmpv4sc0jog.json']
+2025-04-17 08:46:39,089 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': '', 'baudrate': 9600, 'timeout': 5, 'largura_papel': 22, 'caracteres_por_linha': 22, 'tamanho_qrcode': 5, 'avanco_final': 4, 'cortar_papel': True, 'codificacao': 'cp850', 'tipo_impressora': '58mm', 'baudrates_alternativos': [9600, 19200, 38400, 57600, 115200], 'max_tentativas': 3, 'metodos_impressao': ['win32', 'serial', 'html'], 'impressora_windows': 'POS58 Printer', 'impressoras_ignoradas': ['Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'OneNote', 'EPSON L375'], 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'usar_impressora_windows': True}
+2025-04-17 08:46:39,098 - impressora - INFO - Processando impressão do pedido: 115233
+2025-04-17 08:46:39,098 - impressora - INFO - Tentando impressão via Windows
+2025-04-17 08:46:39,098 - impressora - INFO - Preparando impressão via Windows...
+2025-04-17 08:46:39,098 - impressora - INFO - Usando impressora configurada: POS58 Printer
+2025-04-17 08:46:39,100 - impressora - INFO - Enviando arquivo para impressão: C:\Users\caram\AppData\Local\Temp\acriprint_win_20250417_084639.txt
+2025-04-17 08:46:39,190 - impressora - INFO - Impressão Windows enviada com sucesso
+2025-04-17 08:46:39,190 - impressora - INFO - Impressão Windows bem-sucedida
+2025-04-17 08:46:39,190 - impressora - INFO - Resultado registrado em C:\Users\caram\AppData\Local\Temp\tmpv4sc0jog.json: SUCESSO
+2025-04-17 08:53:02,770 - print_process - INFO - ==================================================
+2025-04-17 08:53:02,770 - print_process - INFO - Iniciando processo de impressão em 17/04/2025 08:53:02
+2025-04-17 08:53:02,770 - print_process - INFO - Argumentos: ['c:\\Users\\caram\\OneDrive\\Área de Trabalho\\AcriPrint Programa\\Acriprint V3\\print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmp9gaaabei.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmp8u31hnlf.json']
+2025-04-17 08:53:02,771 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': '', 'baudrate': 9600, 'timeout': 5, 'largura_papel': 22, 'caracteres_por_linha': 22, 'tamanho_qrcode': 5, 'avanco_final': 4, 'cortar_papel': True, 'codificacao': 'cp850', 'tipo_impressora': '58mm', 'baudrates_alternativos': [9600, 19200, 38400, 57600, 115200], 'max_tentativas': 3, 'metodos_impressao': ['win32', 'serial', 'html'], 'impressora_windows': 'POS58 Printer', 'impressoras_ignoradas': ['Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'OneNote', 'EPSON L375'], 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'usar_impressora_windows': True}
+2025-04-17 08:53:02,772 - impressora - INFO - Iniciando impressão do pedido: 115233
+2025-04-17 08:54:42,378 - print_process - INFO - ==================================================
+2025-04-17 08:54:42,378 - print_process - INFO - Iniciando processo de impressão em 17/04/2025 08:54:42
+2025-04-17 08:54:42,378 - print_process - INFO - Argumentos: ['c:\\Users\\caram\\OneDrive\\Área de Trabalho\\AcriPrint Programa\\Acriprint V3\\print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmprt752bt1.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmpx4r6sidu.json']
+2025-04-17 08:54:42,379 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': '', 'baudrate': 9600, 'timeout': 5, 'largura_papel': 22, 'caracteres_por_linha': 22, 'tamanho_qrcode': 5, 'avanco_final': 4, 'cortar_papel': True, 'codificacao': 'cp850', 'tipo_impressora': '58mm', 'baudrates_alternativos': [9600, 19200, 38400, 57600, 115200], 'max_tentativas': 3, 'metodos_impressao': ['win32', 'serial', 'html'], 'impressora_windows': 'POS58 Printer', 'impressoras_ignoradas': ['Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'OneNote', 'EPSON L375'], 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'usar_impressora_windows': True}
+2025-04-17 08:54:42,380 - impressora - INFO - Iniciando impressão do pedido: 115233
+2025-04-17 08:54:42,380 - impressora - INFO - Tentando impressão via Serial (ESC/POS)...
+2025-04-17 08:54:42,380 - impressora - WARNING - Nenhuma porta configurada para conexão
+2025-04-17 08:54:42,380 - impressora - INFO - Tentando impressão via Windows...
+2025-04-17 08:54:42,380 - impressora - INFO - Preparando impressão via Windows...
+2025-04-17 08:54:42,381 - impressora - INFO - Usando impressora configurada: POS58 Printer
+2025-04-17 08:54:42,383 - impressora - INFO - Enviando arquivo para impressão: C:\Users\caram\AppData\Local\Temp\acriprint_win_20250417_085442.txt
+2025-04-17 08:54:42,468 - impressora - INFO - Impressão Windows enviada com sucesso
+2025-04-17 08:54:42,468 - impressora - INFO - Impressão via Windows bem-sucedida.
+2025-04-17 09:07:45,948 - print_process - INFO - ==================================================
+2025-04-17 09:07:45,948 - print_process - INFO - Iniciando processo de impressão em 17/04/2025 09:07:45
+2025-04-17 09:07:45,948 - print_process - INFO - Argumentos: ['c:\\Users\\caram\\OneDrive\\Área de Trabalho\\AcriPrint Programa\\Acriprint V3\\print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmppheak6wm.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmp1ysu21p6.json']
+2025-04-17 09:07:45,948 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': '', 'baudrate': 9600, 'timeout': 5, 'largura_papel': 32, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'avanco_final': 4, 'cortar_papel': True, 'codificacao': 'cp850', 'tipo_impressora': '58mm', 'baudrates_alternativos': [9600, 19200, 38400, 57600, 115200], 'max_tentativas': 3, 'metodos_impressao': ['win32', 'serial', 'html'], 'impressora_windows': 'POS58 Printer', 'impressoras_ignoradas': ['Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'OneNote', 'EPSON L375'], 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'usar_impressora_windows': True}
+2025-04-17 09:07:45,958 - impressora - INFO - Iniciando impressão do pedido: 115235
+2025-04-17 09:07:45,958 - impressora - INFO - Tentando impressão via Serial (ESC/POS)...
+2025-04-17 09:07:45,958 - impressora - WARNING - Nenhuma porta configurada para conexão
+2025-04-17 09:07:45,958 - impressora - INFO - Tentando impressão via Windows...
+2025-04-17 09:07:45,958 - impressora - INFO - Preparando impressão via Windows...
+2025-04-17 09:07:45,958 - impressora - INFO - Usando impressora configurada: POS58 Printer
+2025-04-17 09:07:45,960 - impressora - INFO - Enviando arquivo para impressão: C:\Users\caram\AppData\Local\Temp\acriprint_win_20250417_090745.txt
+2025-04-17 09:07:46,046 - impressora - INFO - Impressão Windows enviada com sucesso
+2025-04-17 09:07:46,047 - impressora - INFO - Impressão via Windows bem-sucedida.
+2025-04-17 09:07:46,047 - impressora - INFO - Resultado registrado em C:\Users\caram\AppData\Local\Temp\tmp1ysu21p6.json: SUCESSO
+2025-04-17 09:13:17,148 - print_process - INFO - ==================================================
+2025-04-17 09:13:17,148 - print_process - INFO - Iniciando processo de impressão em 17/04/2025 09:13:17
+2025-04-17 09:13:17,148 - print_process - INFO - Argumentos: ['c:\\Users\\caram\\OneDrive\\Área de Trabalho\\AcriPrint Programa\\Acriprint V3\\print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmpcbq74mus.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmprqop1ur7.json']
+2025-04-17 09:13:17,148 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': '', 'baudrate': 9600, 'timeout': 5, 'largura_papel': 32, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'avanco_final': 4, 'cortar_papel': True, 'codificacao': 'cp850', 'tipo_impressora': '58mm', 'baudrates_alternativos': [9600, 19200, 38400, 57600, 115200], 'max_tentativas': 3, 'metodos_impressao': ['win32', 'serial', 'html'], 'impressora_windows': 'POS58 Printer', 'impressoras_ignoradas': ['Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'OneNote', 'EPSON L375'], 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'usar_impressora_windows': True}
+2025-04-17 09:13:17,149 - print_process - INFO - Iniciando processamento de impressão
+2025-04-17 09:13:17,149 - print_process - INFO - Processando impressão: pedido=C:\Users\caram\AppData\Local\Temp\tmpcbq74mus.json, resultado=C:\Users\caram\AppData\Local\Temp\tmprqop1ur7.json
+2025-04-17 09:13:17,149 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': '', 'baudrate': 9600, 'timeout': 5, 'largura_papel': 32, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'avanco_final': 4, 'cortar_papel': True, 'codificacao': 'cp850', 'tipo_impressora': '58mm', 'baudrates_alternativos': [9600, 19200, 38400, 57600, 115200], 'max_tentativas': 3, 'metodos_impressao': ['win32', 'serial', 'html'], 'impressora_windows': 'POS58 Printer', 'impressoras_ignoradas': ['Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'OneNote', 'EPSON L375'], 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'usar_impressora_windows': True}
+2025-04-17 09:13:17,149 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': '', 'baudrate': 9600, 'timeout': 5, 'largura_papel': 32, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'avanco_final': 4, 'cortar_papel': True, 'codificacao': 'cp850', 'tipo_impressora': '58mm', 'baudrates_alternativos': [9600, 19200, 38400, 57600, 115200], 'max_tentativas': 3, 'metodos_impressao': ['win32', 'serial', 'html'], 'impressora_windows': 'POS58 Printer', 'impressoras_ignoradas': ['Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'OneNote', 'EPSON L375'], 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'usar_impressora_windows': True}
+2025-04-17 09:13:17,157 - impressora - INFO - Iniciando impressão do pedido: 2000011349869188
+2025-04-17 09:13:17,158 - impressora - INFO - Tentando impressão via Serial (ESC/POS)...
+2025-04-17 09:13:17,158 - impressora - WARNING - Nenhuma porta configurada para conexão
+2025-04-17 09:13:17,158 - impressora - INFO - Tentando impressão via Windows...
+2025-04-17 09:13:17,158 - impressora - INFO - Preparando impressão via Windows...
+2025-04-17 09:13:17,158 - impressora - INFO - Usando impressora configurada: POS58 Printer
+2025-04-17 09:13:17,160 - impressora - INFO - Enviando arquivo para impressão: C:\Users\caram\AppData\Local\Temp\acriprint_win_20250417_091317.txt
+2025-04-17 09:13:17,245 - impressora - INFO - Impressão Windows enviada com sucesso
+2025-04-17 09:13:17,245 - impressora - INFO - Impressão via Windows bem-sucedida.
+2025-04-17 09:13:17,246 - impressora - INFO - Resultado registrado em C:\Users\caram\AppData\Local\Temp\tmprqop1ur7.json: SUCESSO
+2025-04-17 09:13:17,246 - print_process - INFO - Impressão do pedido 2000011349869188 concluída com sucesso
+2025-04-17 09:23:35,495 - print_process - INFO - ==================================================
+2025-04-17 09:23:35,495 - print_process - INFO - Iniciando processo de impressão em 17/04/2025 09:23:35
+2025-04-17 09:23:35,495 - print_process - INFO - Argumentos: ['c:\\Users\\caram\\OneDrive\\Área de Trabalho\\AcriPrint Programa\\Acriprint V3\\print_process.py', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmpsvz9estb.json', 'C:\\Users\\caram\\AppData\\Local\\Temp\\tmpx3dbpbtl.json']
+2025-04-17 09:23:35,496 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': '', 'baudrate': 9600, 'timeout': 5, 'largura_papel': 32, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'avanco_final': 4, 'cortar_papel': True, 'codificacao': 'cp850', 'tipo_impressora': '58mm', 'baudrates_alternativos': [9600, 19200, 38400, 57600, 115200], 'max_tentativas': 3, 'metodos_impressao': ['win32', 'serial', 'html'], 'impressora_windows': 'POS58 Printer', 'impressoras_ignoradas': ['Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'OneNote', 'EPSON L375'], 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'usar_impressora_windows': True}
+2025-04-17 09:23:35,496 - print_process - INFO - Iniciando processamento de impressão
+2025-04-17 09:23:35,496 - print_process - INFO - Processando impressão: pedido=C:\Users\caram\AppData\Local\Temp\tmpsvz9estb.json, resultado=C:\Users\caram\AppData\Local\Temp\tmpx3dbpbtl.json
+2025-04-17 09:23:35,496 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': '', 'baudrate': 9600, 'timeout': 5, 'largura_papel': 32, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'avanco_final': 4, 'cortar_papel': True, 'codificacao': 'cp850', 'tipo_impressora': '58mm', 'baudrates_alternativos': [9600, 19200, 38400, 57600, 115200], 'max_tentativas': 3, 'metodos_impressao': ['win32', 'serial', 'html'], 'impressora_windows': 'POS58 Printer', 'impressoras_ignoradas': ['Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'OneNote', 'EPSON L375'], 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'usar_impressora_windows': True}
+2025-04-17 09:23:35,497 - print_process - INFO - Configurações de impressora carregadas: {'porta_manual': '', 'baudrate': 9600, 'timeout': 5, 'largura_papel': 32, 'caracteres_por_linha': 32, 'tamanho_qrcode': 5, 'avanco_final': 4, 'cortar_papel': True, 'codificacao': 'cp850', 'tipo_impressora': '58mm', 'baudrates_alternativos': [9600, 19200, 38400, 57600, 115200], 'max_tentativas': 3, 'metodos_impressao': ['win32', 'serial', 'html'], 'impressora_windows': 'POS58 Printer', 'impressoras_ignoradas': ['Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'OneNote', 'EPSON L375'], 'verificar_porta_antes': True, 'tempo_liberacao_porta': 3, 'imprimir_logo': False, 'usar_impressora_windows': True}
+2025-04-17 09:23:35,504 - impressora - INFO - Iniciando impressão do pedido: 115237
+2025-04-17 09:23:35,505 - impressora - INFO - Métodos de impressão disponíveis: ['win32', 'serial', 'html']
+2025-04-17 09:23:35,505 - impressora - INFO - Tentando impressão via Serial (ESC/POS)...
+2025-04-17 09:23:35,505 - impressora - WARNING - Nenhuma porta configurada para conexão
+2025-04-17 09:23:35,505 - impressora - INFO - Tentando impressão via Windows...
+2025-04-17 09:23:35,505 - impressora - INFO - Preparando impressão via Windows...
+2025-04-17 09:23:35,505 - impressora - INFO - Usando impressora configurada: POS58 Printer
+2025-04-17 09:23:35,507 - impressora - INFO - Enviando arquivo para impressão: C:\Users\caram\AppData\Local\Temp\acriprint_win_20250417_092335.txt
+2025-04-17 09:23:35,595 - impressora - INFO - Impressão Windows enviada com sucesso
+2025-04-17 09:23:35,595 - impressora - INFO - Impressão via Windows bem-sucedida.
+2025-04-17 09:23:35,596 - impressora - INFO - Resultado registrado em C:\Users\caram\AppData\Local\Temp\tmpx3dbpbtl.json: SUCESSO
+2025-04-17 09:23:35,596 - print_process - INFO - Impressão do pedido 115237 concluída com sucesso
